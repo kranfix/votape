@@ -4,3 +4,5 @@
 
 # Librerias con binarios
 lib/pixijs
+/assets/imgs/*.db
+/assets/imgs/atlas/*.db
