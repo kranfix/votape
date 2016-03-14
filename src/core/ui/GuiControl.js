@@ -10,7 +10,7 @@ GEngine.GuiControl = function( p_id, p_canvas, p_textureId )
 	this.m_id = p_id;
 };
 
-GEngine.GuiControl.prototype = Object.create( GEngine.GSprite );
+GEngine.GuiControl.prototype = Object.create( GEngine.GSprite.prototype );
 
 GEngine.GuiControl.prototype.id = function()
 {

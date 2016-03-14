@@ -5,7 +5,7 @@ var GEngine = GEngine || {};
 GEngine.GScene = function( p_canvas )
 {
 	this.m_canvas = new PIXI.Container();
-	p_canvas.addChild( p_canvas );
+	p_canvas.addChild( this.m_canvas );
 
 	this.m_controls = [];
 

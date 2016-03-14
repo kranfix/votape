@@ -6,7 +6,10 @@ var G_BOOT_FILES =
 	"core/GSprite.js",
 	"core/GScene.js",
 	"core/App.js",
-	"core/GSceneManager.js"
+	"core/GSceneManager.js",
+	"introScene/BasePanel.js",
+	"introScene/SceneIntro.js"
+
 ]
 
 function includeScript( p_script )

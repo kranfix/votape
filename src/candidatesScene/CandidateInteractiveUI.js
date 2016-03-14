@@ -14,7 +14,7 @@ CandidateInteractiveUI.ST_NORMAL = 0;
 CandidateInteractiveUI.ST_PRE_SELECT = 1;
 CandidateInteractiveUI.ST_SELECTED 	 = 2;
 
-CandidateInteractiveUI.prototype = Object.create( GEngine.GuiControl );
+CandidateInteractiveUI.prototype = Object.create( GEngine.GuiControl.prototype );
 
 CandidateInteractiveUI.prototype.update = function( p_dt )
 {

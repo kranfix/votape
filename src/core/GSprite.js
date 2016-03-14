@@ -15,7 +15,7 @@ GEngine.GSprite = function( p_textureId )
 	this.on( 'mouseover', onPointerOut );
 };
 
-GEngine.GSprite.prototype = Object.create( PIXI.Sprite );
+GEngine.GSprite.prototype = Object.create( PIXI.Sprite.prototype );
 
 GEngine.GSprite.prototype.setOwner = function( p_owner )
 {

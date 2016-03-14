@@ -5,7 +5,7 @@ function SceneSelectCandidates( p_canvas )
 	GEngine.GScene.call( this, p_canvas );
 };
 
-SceneSelectCandidates.prototype = Object.create( GEngine.GScene );
+SceneSelectCandidates.prototype = Object.create( GEngine.GScene.prototype );
 
 SceneSelectCandidates.GRID_ROWS = 3;
 SceneSelectCandidates.GRID_COLS = 3;

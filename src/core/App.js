@@ -6,7 +6,8 @@ GEngine.App = function()
 
 	var t_canvasRef = document.getElementById( 'demoInfoCanvas' );
 	this.m_renderer = PIXI.autoDetectRenderer( 800, 600, { view: t_canvasRef,
-														   autoResize: true } );
+														   autoResize: true,
+														   backgroundColor: 0x1099bb } );
 	this.m_mainCanvas = new PIXI.Container();
 	this.m_appCanvas = new PIXI.Container();
 	this.m_debugCanvas = new PIXI.Container();
