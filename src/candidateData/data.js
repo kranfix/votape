@@ -13,7 +13,7 @@ var base = [
     prof: 'ABOGADO'
     prov: 'LIMA'
     org: 'ALIANZA POPULAR',
-    st: 'activo'
+    st: 'ACTIVO'
   },
   {
     id: 2,
@@ -23,16 +23,46 @@ var base = [
     prof: 'ECONOMISTA'
     prov: 'ANCASH'
     org: 'PERU POSIBLE',
-    st: 'activo'
+    st: 'ACTIVO'
   },
   {
     id: 3,
     nom: 'ANTERO',
     ape: 'FLORES ARAOZ ESPARZA',
     age: 73,
-    prof: 'LIMA'
+    prof: 'ABOGADO'
+    prov: 'LIMA'
+    org: 'PARTIDO POLITICO ORDEN',
+    st: 'ACTIVO'
+  },
+  {
+    id: 4,
+    nom: 'CESAR',
+    ape: 'ACUÑA PERALTA',
+    age: 63,
+    prof: 'INGENIERO'
+    prov: 'CAJAMARCA'
+    org: 'ALIANZA PARA EL PROGRESO DEL PERU',
+    st: 'TACHADO'
+  },
+  {
+    id: 5,
+    nom: 'DANIEL BELIZARIO',
+    ape: 'URRESTI ELERA',
+    age: 59,
+    prof: 'MILITAR'
+    prov: 'PIURA'
+    org: 'PARTIDO NACIONALISTA PERUANO',
+    st: 'RENUNCIO'
+  },
+  {
+    id: 6,
+    nom: 'FELIPE BALDOMERO',
+    ape: 'CASTILLO ALFARO',
+    age: 66,
+    prof: 'MEDICO'
     prov: 'ANCASH'
-    org: 'PARTIDO POLITICO  ORDEN',
-    st: 'activo'
+    org: 'SIEMPRE JUNTOS',
+    st: 'RENUNCIO'
   },
 ];
