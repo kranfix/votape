@@ -115,4 +115,84 @@ var base = [
     org: 'TODOS POR EL PERU',
     st: 'TACHADO'
   },
+  {
+    id: 12,
+    nom: 'KEIKO SOFIA',
+    ape: 'FUJIMORI HIGUCHI',
+    age: 40,
+    prof: 'ADMINISTRADOR'
+    prov: 'LIMA'
+    org: 'FUERZA POPULAR',
+    st: 'ACTIVO'
+  },
+  {
+    id: 13,
+    nom: 'LUIS FERNANDO',
+    ape: 'OLIVERA VEGA',
+    age: 57,
+    prof: 'ADMINISTRADOR'
+    prov: 'LIMA'
+    org: 'FRENTE ESPERANZA',
+    st: 'ACTIVO'
+  },
+  {
+    id: 14,
+    nom: 'MIGUEL WALTER',
+    ape: 'HILARIO ESCOBAR',
+    age: 45,
+    prof: 'ECONOMISTA'
+    prov: 'UCAYALI'
+    org: 'PROGRESANDO PERU',
+    st: 'ACTIVO'
+  },
+  {
+    id: 15,
+    nom: 'PEDRO PABLO',
+    ape: 'KUCZYNSKI GODARD',
+    age: 77,
+    prof: 'ECONOMISTA'
+    prov: 'LIMA'
+    org: 'PERUANOS POR EL CAMBIO',
+    st: 'ACTIVO'
+  },
+  {
+    id: 16,
+    nom: 'RENZO ANDRES',
+    ape: 'REGGIARDO BARRETO',
+    age: 43,
+    prof: 'ABOGADO'
+    prov: 'LIMA'
+    org: 'PERU PATRIA SEGURA',
+    st: 'RENUNCIO'
+  },
+  {
+    id: 17,
+    nom: 'VERONIKA FANNY',
+    ape: 'MENDOZA FRISCH',
+    age: 35,
+    prof: 'PSICOLOGO'
+    prov: 'CUSCO'
+    org: 'EL FRENTE AMPLIO POR JUSTICIA, VIDA Y LIBERTAD',
+    st: 'ACTIVO'
+  },
+  {
+    id: 18,
+    nom: 'VLADIMIR ROY',
+    ape: 'CERRON ROJAS',
+    age: 45,
+    prof: 'MEDICO'
+    prov: 'JUNIN'
+    org: 'PERU LIBERTARIO',
+    st: 'ACTIVO'
+  },
+  {
+    id: 19,
+    nom: 'YEHUDE',
+    ape: 'SIMON MUNARO',
+    age: 68,
+    prof: 'ABOGADO'
+    prov: 'LIMA'
+    org: 'PARTIDO HUMANISTA PERUANO',
+    st: 'ACTIVO'
+  },
 ];
