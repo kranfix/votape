@@ -65,4 +65,54 @@ var base = [
     org: 'SIEMPRE JUNTOS',
     st: 'RENUNCIO'
   },
+  {
+    id: 7,
+    nom: 'FRANCISCO ERNESTO',
+    ape: 'DIES-CANSECO TAVARA',
+    age: 69,
+    prof: 'ABOGADO'
+    prov: 'LIMA'
+    org: 'PERU NACION',
+    st: 'ACTIVO'
+  },
+  {
+    id: 8,
+    nom: 'GRECIRIO',
+    ape: 'SANTOS GUERRERO',
+    age: 49,
+    prof: 'DOCENTE'
+    prov: 'CAJAMARCA'
+    org: 'DEMOCRACIA DIRECTA',
+    st: 'ACTIVO'
+  },
+  {
+    id: 9,
+    nom: 'HERNANDO',
+    ape: 'GUERRA GARCIA CAMPOS',
+    age: 52,
+    prof: 'ABOGADO'
+    prov: 'LIMA'
+    org: 'ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP',
+    st: 'ACTIVO'
+  },
+  {
+    id: 10,
+    nom: 'ISAAC ALFREDO',
+    ape: 'BARNECHEA GARCIA',
+    age: 63,
+    prof: 'ESCRITOR'
+    prov: 'ICA'
+    org: 'ACCION POPULAR',
+    st: 'ACTIVO'
+  },
+  {
+    id: 11,
+    nom: 'JULIO ARMANDO',
+    ape: 'GUZMAN CACERES',
+    age: 45,
+    prof: 'ECONOMISTA'
+    prov: 'LIMA'
+    org: 'TODOS POR EL PERU',
+    st: 'TACHADO'
+  },
 ];
