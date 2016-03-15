@@ -19,6 +19,13 @@ GEngine.GSceneManager.SCENE_CANDIDATE_INFO 		= "sceneCandidateInfo";
 
 GEngine.GSceneManager.prototype.init = function()
 {
+	/// Set the common bg of the application
+	this.m_appBg = PIXI.Sprite.fromFrame( 'res_bg_app_palace.png' );
+	this.canvas.addChild( this.m_appBg );
+	
+	this.m_appBg.scale.x = GEngine.App.APP_WIDTH / this.m_appBg.width;
+	this.m_appBg.scale.y = this.m_appBg.scale.x;
+
 	this.changeScene( GEngine.GSceneManager.SCENE_INTRO );
 };
 

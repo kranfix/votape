@@ -31,7 +31,7 @@ BasePanel.prototype.init = function()
 	this.m_text = new PIXI.Text( "votape" );
 	//this.m_container.addChild( this.m_text );
 
-	this.m_xText = 200;
+	this.m_xText = 600;
 	this.m_yText = 200;
 
 	this.m_text.x = this.m_xText;

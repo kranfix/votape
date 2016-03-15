@@ -13,7 +13,7 @@ SceneIntro.prototype = Object.create( GEngine.GScene.prototype );
 
 SceneIntro.prototype.createPanels = function()
 {
-	var t_panel1 = new BasePanel( 'introPanel1',
+	var t_panel1 = new BasePanel( 'panelScene1',
 								  this.m_canvas );
 	this.m_introPanels.push( t_panel1 );
 };

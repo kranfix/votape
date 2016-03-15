@@ -1,0 +1,60 @@
+{"frames": {
+
+"res_bg_panel_white.png":
+{
+	"frame": {"x":0,"y":0,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+},
+"res_bg_panel_black.png":
+{
+	"frame": {"x":100,"y":0,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+},
+"res_warning_sign.png":
+{
+	"frame": {"x":200,"y":0,"w":150,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":150},
+	"sourceSize": {"w":150,"h":150}
+},
+"res_team_logo.png":
+{
+	"frame": {"x":350,"y":0,"w":250,"h":376},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":376},
+	"sourceSize": {"w":250,"h":376}
+},
+"res_jne_logo.png":
+{
+	"frame": {"x":600,"y":0,"w":300,"h":272},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":272},
+	"sourceSize": {"w":300,"h":272}
+},
+"res_bg_app_palace.png":
+{
+	"frame": {"x":0,"y":376,"w":900,"h":564},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":900,"h":564},
+	"sourceSize": {"w":900,"h":564}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "resources_1.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5e832305056c2511f2a4ca2100c56aa0:3667c779fc6a1fe943e700f7adb3d23e:0668eb2f6d8e8d10377eabddd9f4e2f6$"
+}
+}

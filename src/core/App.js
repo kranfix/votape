@@ -5,9 +5,17 @@ GEngine.App = function()
 	GEngine.App.instance = this;
 
 	var t_canvasRef = document.getElementById( 'demoInfoCanvas' );
-	this.m_renderer = PIXI.autoDetectRenderer( 800, 600, { view: t_canvasRef,
-														   autoResize: true,
-														   backgroundColor: 0x1099bb } );
+	t_canvasRef.width = window.innerWidth;	
+	t_canvasRef.height = window.innerHeight;
+
+	GEngine.App.APP_WIDTH 	= t_canvasRef.width;///window['config']['APP_WIDTH'];
+	GEngine.App.APP_HEIGHT 	= t_canvasRef.height;///window['config']['APP_HEIGHT'];
+	this.m_renderer = PIXI.autoDetectRenderer( GEngine.App.APP_WIDTH, 
+											   GEngine.App.APP_HEIGHT,
+											    { view: t_canvasRef,
+												  autoResize: true,
+												  backgroundColor: 0x000000 } 
+											  );
 	this.m_mainCanvas = new PIXI.Container();
 	this.m_appCanvas = new PIXI.Container();
 	this.m_debugCanvas = new PIXI.Container();
@@ -25,6 +33,9 @@ GEngine.App = function()
 };
 
 GEngine.App.instance = null;
+
+GEngine.App.APP_WIDTH 	= 800;
+GEngine.App.APP_HEIGHT 	= 600;
 
 GEngine.App.ST_IDLE  			= 0;
 GEngine.App.ST_INITIAL_LOADING  = 1;
@@ -44,6 +55,11 @@ GEngine.App.prototype.init = function()
 	this.m_state = GEngine.App.ST_INITIAL_LOADING;
 
 	console.info( 'App::init> started resources loading' );
+
+	/// resize for the first time
+	window.addEventListener( 'resize', this.onResize );
+
+	this.onResize();
 };
 
 GEngine.App.prototype.onAtlassesLoaded = function()
@@ -68,6 +84,29 @@ GEngine.App.prototype.onApplicationStarted = function()
 	this.m_state = GEngine.App.ST_RUNNING;
 	this.m_sceneManager = new GEngine.GSceneManager( this.m_appCanvas );
 	console.info( 'App::onApplicationStarted> the application has just started' );
+};
+
+GEngine.App.prototype.onResize = function()
+{
+	/// Simple resize
+	/// Calculate the ratio of the dimensions
+	///var x_ratio = window.innerWidth / GEngine.App.APP_WIDTH;
+	///var y_ratio = window.innerHeight / GEngine.App.APP_HEIGHT;
+
+	/// Resize the main canvas using the x_ratio ( we are asumming landscape mode )
+	var t_renderer = GEngine.App.instance.renderer();
+	var t_view = t_renderer.view;
+	///t_renderer.width = t_view.width = GEngine.App.APP_WIDTH * x_ratio;
+	///t_renderer.height = t_view.height = GEngine.App.APP_HEIGHT * x_ratio;
+
+	/// Temporal resizing
+	t_view.width  = window.innerWidth;
+	t_view.height = window.innerHeight;
+};
+
+GEngine.App.prototype.renderer = function()
+{
+	return this.m_renderer;
 };
 
 GEngine.App.prototype.onApplicationSuspended = function()
