@@ -87,6 +87,7 @@ GEngine.App.prototype.onTick = function()
 	this.m_timeNow = new Date();
 	this.m_timeDelta = this.m_timeNow - this.m_timeBef;
 	this.m_timeBef = this.m_timeNow;
+	this.m_timeDelta = ( this.m_timeDelta > 50 ? 50 : this.m_timeDelta );
 	if ( this.m_state == GEngine.App.ST_RUNNING )
 	{
 		if ( this.m_sceneManager != null )

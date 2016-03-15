@@ -5,6 +5,8 @@ var G_BOOT_FILES =
 [
 	"core/GSprite.js",
 	"core/GScene.js",
+	"core/ui/GEffectTypeWriter.js",
+	"core/ui/GText.js",
 	"core/App.js",
 	"core/GSceneManager.js",
 	"introScene/BasePanel.js",
