@@ -10,6 +10,7 @@ var G_BOOT_FILES =
 	"core/App.js",
 	"core/GSceneManager.js",
 	"introScene/BasePanel.js",
+	"introScene/IntroPanel.js",
 	"introScene/SceneIntro.js"
 
 ]

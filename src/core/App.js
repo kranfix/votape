@@ -5,11 +5,11 @@ GEngine.App = function()
 	GEngine.App.instance = this;
 
 	var t_canvasRef = document.getElementById( 'demoInfoCanvas' );
-	t_canvasRef.width = window.innerWidth;	
-	t_canvasRef.height = window.innerHeight;
+	///t_canvasRef.width = window.innerWidth;	
+	///t_canvasRef.height = window.innerHeight;
 
-	GEngine.App.APP_WIDTH 	= t_canvasRef.width;///window['config']['APP_WIDTH'];
-	GEngine.App.APP_HEIGHT 	= t_canvasRef.height;///window['config']['APP_HEIGHT'];
+	GEngine.App.APP_WIDTH 	= window['config']['APP_WIDTH'];///t_canvasRef.width;
+	GEngine.App.APP_HEIGHT 	= window['config']['APP_HEIGHT'];///t_canvasRef.height;
 	this.m_renderer = PIXI.autoDetectRenderer( GEngine.App.APP_WIDTH, 
 											   GEngine.App.APP_HEIGHT,
 											    { view: t_canvasRef,
@@ -59,7 +59,7 @@ GEngine.App.prototype.init = function()
 	/// resize for the first time
 	window.addEventListener( 'resize', this.onResize );
 
-	this.onResize();
+	///this.onResize();
 };
 
 GEngine.App.prototype.onAtlassesLoaded = function()
@@ -94,14 +94,14 @@ GEngine.App.prototype.onResize = function()
 	///var y_ratio = window.innerHeight / GEngine.App.APP_HEIGHT;
 
 	/// Resize the main canvas using the x_ratio ( we are asumming landscape mode )
-	var t_renderer = GEngine.App.instance.renderer();
-	var t_view = t_renderer.view;
+	///var t_renderer = GEngine.App.instance.renderer();
+	///var t_view = t_renderer.view;
 	///t_renderer.width = t_view.width = GEngine.App.APP_WIDTH * x_ratio;
 	///t_renderer.height = t_view.height = GEngine.App.APP_HEIGHT * x_ratio;
 
 	/// Temporal resizing
-	t_view.width  = window.innerWidth;
-	t_view.height = window.innerHeight;
+	///t_view.width  = window.innerWidth;
+	///t_view.height = window.innerHeight;
 };
 
 GEngine.App.prototype.renderer = function()

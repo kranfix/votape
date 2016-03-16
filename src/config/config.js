@@ -3,7 +3,7 @@
 window['config'] = 
 {
 
-	'APP_WIDTH' : 800,
-	'APP_HEIGHT' : 600
+	'APP_WIDTH' : 1024,
+	'APP_HEIGHT' : 768
 
 }
