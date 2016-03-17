@@ -9,79 +9,76 @@ DataPanels.panels =
 		{
 			'bg' : 'res_bg_panel_black.png',
 			'xPos' : 100,
-			'yPos' : 100,
-			'panelWidth' : 700,
-			'panelHeight' : 400,
-			'texts' :
-				[
-					{
-						'xPos' : 360,
-						'yPos' : 150,
-						'textId' : 'STR_TEAM_NAME',
-						'effect' : null
-					},				
-				],
-			'sprites' :
-				[
-					{ 'xPos' : 430, 'yPos' : 350, 'texture' : 'res_jne_logo.png', 'sx' : 0.5, 'sy' : 0.5 }
-				]
-		},
-	'panelScene2':
-		{
-			'bg' : 'res_bg_panel_black.png',
-			'xPos' : 50,
 			'yPos' : 50,
-			'panelWidth' : 600,
+			'panelWidth' : 900,
 			'panelHeight' : 500,
 			'texts' :
 				[
 					{
-						'xPos' : 100,
-						'yPos' : 40,
-						'textId' : 'STR_PANEL1_SCENE_INFO',
+						'xPos' : 380,
+						'yPos' : 220,
+						'textId' : 'STR_PANEL2_WARNING',
+						'effect' : null//{ 'id' : 'typewriter', 'dt': 200 }
+					},
+					{
+						'xPos' : 400,
+						'yPos' : 260,
+						'textId' : 'STR_PANEL2_WARNING_INFO',
 						'effect' : null//{ 'id' : 'typewriter', 'dt': 200 }
 					},
 				],
 			'sprites' :
 				[
-					{ 'xPos' : 20, 'yPos' : 20, 'texture' : 'res_warning_sign.png', 'sx' : 1, 'sy' : 1 }
+					{ 'xPos' : 295, 'yPos' : 200, 'texture' : 'res_bg_panel_white.png', 'sx' : 4, 'sy' : 1.5, 'alpha' : 0.5 },
+					{ 'xPos' : 220, 'yPos' : 200, 'texture' : 'res_warning_sign.png', 'sx' : 1, 'sy' : 1, 'alpha' : 1 },
 				]
 		},
-	'panelScene3':
+	'panelScene2':
 		{
 			'bg' : 'res_bg_panel_black.png',
-			'xPos' : 50,
+			'xPos' : 100,
 			'yPos' : 50,
-			'panelWidth' : 600,
+			'panelWidth' : 900,
 			'panelHeight' : 500,
 			'texts' :
 				[
 					{
-						'xPos' : 100,
-						'yPos' : 40,
-						'textId' : 'STR_TEAM_NAME',
+						'xPos' : 250,
+						'yPos' : 200,
+						'textId' : 'STR_TEAM_NAME_1',
+						'effect' : null
+					},
+					{
+						'xPos' : 450,
+						'yPos' : 250,
+						'textId' : 'STR_TEAM_NAME_2',
 						'effect' : null
 					},
 				],
 			'sprites' :
 				[
+					{ 'xPos' : 430, 'yPos' : 350, 'texture' : 'res_jne_logo.png', 'sx' : 0.5, 'sy' : 0.5, 'alpha' : 1 }
 				]
 		},
-	'panelScene4':
+	'panelScene3':
 		{
 			'bg' : 'res_bg_panel_black.png',
-			'xPos' : 50,
+			'xPos' : 100,
 			'yPos' : 50,
-			'panelWidth' : 600,
+			'panelWidth' : 900,
 			'panelHeight' : 500,
 			'texts' :
 				[
+					{
+						'xPos' : 450,
+						'yPos' : 450,
+						'textId' : 'STR_PATRIOTA',
+						'effect' : null
+					},
 				],
 			'sprites' :
 				[
-					{ 'xPos' : 200, 'yPos' : 200, 'texture' : 'res_gamename.png', 'sx' : 1, 'sy' : 1 }
+					{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 }
 				]
 		}
-
-
 }

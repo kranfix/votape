@@ -30,6 +30,8 @@ function IntroPanel( p_id, p_container )
 	this.m_sprites = [];
 	/** @type {Array.<GEngine.GText>} */
 	this.m_texts = [];
+	/** @type {Array.<number>} */
+	this.m_spritesAlpha = [];
 
 	BasePanel.call( this, p_id, p_container );
 };
@@ -47,6 +49,8 @@ IntroPanel.prototype.init = function()
 {
 	BasePanel.prototype.init.call( this );
 
+	this.m_container.visible = false;
+
 	if ( this.m_panelData['bg'] )
 	{
 		this.m_panelBg = PIXI.Sprite.fromFrame( this.m_panelData['bg'] );
@@ -59,11 +63,37 @@ IntroPanel.prototype.init = function()
 						   		   this.m_panelData['panelWidth'] );
 		this.m_panelBg.y = this.m_panelData['yPos'];
 
-		this.m_panelBg.alpha = 0.5;
+		this.m_panelBg.alpha = 0.8;
 	}
 	else
 	{
 		this.m_panelBg = null;
+	}
+
+	if ( this.m_panelData['sprites'] &&
+		 this.m_panelData['sprites'].length > 0 )
+	{
+		var t_sprites = this.m_panelData['sprites'];
+		for ( var q = 0; q < t_sprites.length; q++ )
+		{
+			var t_xPos = t_sprites[q]['xPos'];
+			var t_yPos = t_sprites[q]['yPos'];
+			var t_textureId = t_sprites[q]['texture'];
+			var t_scaleX = t_sprites[q]['sx'];
+			var t_scaleY = t_sprites[q]['sy'];
+			var t_alpha  = t_sprites[q]['alpha'];
+
+			var t_sprite = PIXI.Sprite.fromFrame( t_textureId );
+			this.m_container.addChild( t_sprite );
+			t_sprite.x = t_xPos;
+			t_sprite.y = t_yPos;
+			t_sprite.scale.x = t_scaleX;
+			t_sprite.scale.y = t_scaleY;
+			t_sprite.alpha   = t_alpha;
+
+			this.m_sprites.push( t_sprite );
+			this.m_spritesAlpha.push( t_sprite.alpha );
+		}
 	}
 
 	if ( this.m_panelData['texts'] &&
@@ -85,29 +115,6 @@ IntroPanel.prototype.init = function()
 				t_gText.enableEffect( t_textEffect['id'] );
 			}
 			this.m_texts.push( t_gText );
-		}
-	}
-
-	if ( this.m_panelData['sprites'] &&
-		 this.m_panelData['sprites'].length > 0 )
-	{
-		var t_sprites = this.m_panelData['sprites'];
-		for ( var q = 0; q < t_sprites.length; q++ )
-		{
-			var t_xPos = t_sprites[q]['xPos'];
-			var t_yPos = t_sprites[q]['yPos'];
-			var t_textureId = t_sprites[q]['texture'];
-			var t_scaleX = t_sprites[q]['sx'];
-			var t_scaleY = t_sprites[q]['sy'];
-
-			var t_sprite = PIXI.Sprite.fromFrame( t_textureId );
-			this.m_container.addChild( t_sprite );
-			t_sprite.x = t_xPos;
-			t_sprite.y = t_yPos;
-			t_sprite.scale.x = t_scaleX;
-			t_sprite.scale.y = t_scaleY;
-
-			this.m_sprites.push( t_sprite );
 		}
 	}
 
@@ -166,7 +173,7 @@ IntroPanel.prototype.setAlphaToElements = function()
 {
 	for ( var q = 0; q < this.m_sprites.length; q++ )
 	{
-		this.m_sprites[q].alpha = this.m_currentAlpha;
+		this.m_sprites[q].alpha = this.m_currentAlpha * this.m_spritesAlpha[q];
 	}
 	for ( var q = 0; q < this.m_texts.length; q++ )
 	{
@@ -177,6 +184,7 @@ IntroPanel.prototype.setAlphaToElements = function()
 IntroPanel.prototype.onEnter = function()
 {
 	this.setState( IntroPanel.ST_FADING_IN );
+	this.m_container.visible = true;
 };
 
 IntroPanel.prototype.onExit = function()
@@ -233,7 +241,7 @@ IntroPanel.prototype.free = function()
 	{
 		this.m_container.removeChild( this.m_texts[q].pixiText() );
 		this.m_texts[q].free();
-		thism.m_texts[q] = null;
+		this.m_texts[q] = null;
 	}
 	this.m_texts = null;
 

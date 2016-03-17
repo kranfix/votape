@@ -30,7 +30,7 @@ GEngine.GText.prototype.init = function ()
 		return;
 	}
 
-	this.m_pixiText.style = { 'style': 'normal ' + t_stringParams['size'] + 'pt ' + t_stringParams['font'],
+	this.m_pixiText.style = { 'font':  t_stringParams['style'] + ' ' + t_stringParams['size'] + 'px ' + t_stringParams['font'],
 							  'fill' : t_stringParams['fill'],
 							  'align': t_stringParams['align'],
 							  'wordWrap': t_stringParams['wordWrap'],
