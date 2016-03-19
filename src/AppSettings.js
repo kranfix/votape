@@ -10,8 +10,8 @@ function AppSettings()
 	/** @type {Array.<Candidate>} */
 	this.candidatesBasicInfo = [];
 	/** @type {Array.<string>}*/
-	this.pilars = ['ambient','education','employment',
-				   'health','security','technology'];
+	this.pilars = ['environment','education','Laboral',
+				   'health','security','Science'];
 
 	/** @type {Array.<string>} */
 	this.user_selectedPilars = null;
@@ -61,13 +61,14 @@ AppSettings.prototype.onBasicInfoLoaded = function( p_response )
 		var t_candidateInfo = AppSettings.instance.objCandidatesBasicInfo[q];
 		var t_candidateObj = new Candidate( q + 1 );
 		t_candidateObj.id 		= t_candidateInfo['id'];
-		t_candidateObj.fname 	= t_candidateInfo['nom'];
-		t_candidateObj.lname 	= t_candidateInfo['ape'];
+		t_candidateObj.name 	= t_candidateInfo['name'];
 		t_candidateObj.age 		= t_candidateInfo['age'];
 		t_candidateObj.job 		= t_candidateInfo['prof'];
 		t_candidateObj.province = t_candidateInfo['prov'];
 		t_candidateObj.party 	= t_candidateInfo['org'];
 		t_candidateObj.state 	= t_candidateInfo['st'];
+		t_candidateObj.proposals = t_candidateInfo['proposals'];
+		t_candidateObj.url 		= t_candidateInfo['url'];
 
 		AppSettings.instance.candidatesBasicInfo.push( t_candidateObj );
 	}
