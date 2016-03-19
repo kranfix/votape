@@ -1,0 +1,36 @@
+{"frames": {
+
+"res_informate.png":
+{
+	"frame": {"x":0,"y":0,"w":467,"h":160},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":467,"h":160},
+	"sourceSize": {"w":467,"h":160}
+},
+"res_president.png":
+{
+	"frame": {"x":0,"y":160,"w":309,"h":630},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":309,"h":630},
+	"sourceSize": {"w":309,"h":630}
+},
+"res_secretary.png":
+{
+	"frame": {"x":309,"y":160,"w":298,"h":565},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":298,"h":565},
+	"sourceSize": {"w":298,"h":565}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "president.png",
+	"format": "RGBA8888",
+	"size": {"w":607,"h":790},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9a1557498246da61a87f982eedc22a56:eddb9feddf0ada02b018838e5fb29898:30d5b2f2bc73943375fdaca170b7dc03$"
+}
+}
