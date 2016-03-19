@@ -1,12 +1,12 @@
 {
-	"root" : [
+	"candidates" : [
 		{
 			"id": 1,
 			"name": "Alan GARCÍA",
-			"politicalParty": "Alianza Popular",
-			"profession": "Abogado",
+			"org": "Alianza Popular",
+			"prof": "Abogado",
 			"age": "66",
-			"origin": "Lima",
+			"prov": "Lima",
 			"picture": null,
 			"proposals": {
 				"education": "Incrementar anualmente el 0.30% para el sector de educación pública, que permita alcanzar el 6% del PBI al 2021.",
@@ -16,16 +16,17 @@
 				"Laboral": "Implementar el certificado de buenas prácticas laborales dirigido a fomentar un mejor clima laboral premiando a las empresas con incentivos tributarios.",
 				"Science": "Promover cambios en el Plan Curricular Escolar, incorporando el uso masivo de la TICs."
 			},
-			"url": "http://www.votoinformado.pe/voto/plan-de-gobierno-candidato.aspx?p=tlQSb3OZcVuYNMmq1WWNuA=="
+			"url": "http://www.votoinformado.pe/voto/plan-de-gobierno-candidato.aspx?p=tlQSb3OZcVuYNMmq1WWNuA==",
+			"st": "ACTIVO"
 		},
 
 		{
 			"id": 2,
 			"name": "Alejandro TOLEDO",
-			"politicalParty": "Perú Posible",
-			"profession": "Economista",
+			"org": "Perú Posible",
+			"prof": "Economista",
 			"age": "70",
-			"origin": "Ancash",
+			"prov": "Ancash",
 			"picture": null,
 			"proposals": {
 				"education": "",
@@ -35,16 +36,17 @@
 				"Laboral": "",
 				"Science": ""
 			},
-			"url": ""
+			"url": "",
+			"st": "ACTIVO"
 		},
 
 		{
 			"id": 3,
 			"name": "Ántero FLÓREZ ARÁOZ",
-			"politicalParty": "Partido Político Orden",
-			"profession": "Abogado",
+			"org": "Partido Político Orden",
+			"prof": "Abogado",
 			"age": "73",
-			"origin": "Lima",
+			"prov": "Lima",
 			"picture": null,
 			"proposals": {
 				"education": "",
@@ -54,16 +56,77 @@
 				"Laboral": "",
 				"Science": ""
 			},
-			"url": ""
+			"url": "",
+			"st": "ACTIVO"
+		},
+
+		{
+			"id": 4,
+			"name": "Cesar ACUÑA PERALTA",
+			"org": "Alianza para el progreso del Perú",
+			"prof": "Ingeniero",
+			"age": "63",
+			"prov": "Cajamarca",
+			"picture": null,
+			"proposals": {
+				"education": "",
+				"health": "",
+				"environment": "",
+				"security": "",
+				"Laboral": "",
+				"Science": ""
+			},
+			"url": "",
+			"st": "TACHADO"
+		},
+
+		{
+			"id": 5,
+			"name": "Daniel URRESTI",
+			"org": "Partido Nacionalista Peruano",
+			"prof": "Militar",
+			"age": "59",
+			"prov": "Piura",
+			"picture": null,
+			"proposals": {
+				"education": "",
+				"health": "",
+				"environment": "",
+				"security": "",
+				"Laboral": "",
+				"Science": ""
+			},
+			"url": "",
+			"st": "RENUNCIO"
+		},
+
+		{
+			"id": 6,
+			"name": "Felipe CASTILLO ALFARO",
+			"org": "Siempre Juntos",
+			"prof": "Médico",
+			"age": "66",
+			"prov": "Ancash",
+			"picture": null,
+			"proposals": {
+				"education": "",
+				"health": "",
+				"environment": "",
+				"security": "",
+				"Laboral": "",
+				"Science": ""
+			},
+			"url": "",
+			"st": "RENUNCIO"
 		},
 
 		{
 			"id": 7,
 			"name": "Francisco DIEZ-CANSECO",
-			"politicalParty": "Perú Nación",
-			"profession": "Abogado",
+			"org": "Perú Nación",
+			"prof": "Abogado",
 			"age": "69",
-			"origin": "Lima",
+			"prov": "Lima",
 			"picture": null,
 			"proposals": {
 				"education": "",
@@ -73,16 +136,17 @@
 				"Laboral": "",
 				"Science": ""
 			},
-			"url": ""
+			"url": "",
+			"st": "ACTIVO"
 		},
 
 		{
 			"id": 8,
 			"name": "Gregorio SANTOS",
-			"politicalParty": "Democracia Directa",
-			"profession": "Docente",
+			"org": "Democracia Directa",
+			"prof": "Docente",
 			"age": "49",
-			"origin": "Cajamarca",
+			"prov": "Cajamarca",
 			"picture": null,
 			"proposals": {
 				"education": "",
@@ -92,7 +156,8 @@
 				"Laboral": "",
 				"Science": ""
 			},
-			"url": ""
+			"url": "",
+			"st": "ACTIVO"
 		},
 
 		{
