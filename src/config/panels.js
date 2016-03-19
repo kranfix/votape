@@ -111,7 +111,7 @@ DataPanels.panels =
 				],
 			'sprites' :
 				[
-					{ 'xPos' : 650, 'yPos' : 180, 'texture' : 'res_bg_panel_white.png', 'sx' : 4, 'sy' : 1.5, 'alpha' : 1 },
+					{ 'xPos' : 650, 'yPos' : 80, 'texture' : 'res_president.png', 'sx' : 0.9, 'sy' : 0.8, 'alpha' : 1 },
 				]
 		},
 	'panelScene5':
@@ -124,19 +124,19 @@ DataPanels.panels =
 			'texts' :
 				[
 					{
-						'xPos' : 280,
+						'xPos' : 320,
 						'yPos' : 230,
 						'textId' : 'STR_PANEL5_STORY_1',
 						'effect' : { 'id' : 'typewriter', 'dt': 200 }
 					},
 					{
-						'xPos' : 280,
+						'xPos' : 320,
 						'yPos' : 280,
 						'textId' : 'STR_PANEL5_STORY_2',
 						'effect' : { 'id' : 'typewriter', 'dt': 200 }
 					},
 					{
-						'xPos' : 280,
+						'xPos' : 320,
 						'yPos' : 330,
 						'textId' : 'STR_PANEL5_STORY_3',
 						'effect' : { 'id' : 'typewriter', 'dt': 200 }
@@ -144,7 +144,7 @@ DataPanels.panels =
 				],
 			'sprites' :
 				[
-					{ 'xPos' : 100, 'yPos' : 200, 'texture' : 'res_bg_panel_white.png', 'sx' : 4, 'sy' : 1.5, 'alpha' : 1 },
+					{ 'xPos' : 90, 'yPos' : 140, 'texture' : 'res_secretary.png', 'sx' : 0.8, 'sy' : 0.7, 'alpha' : 1 },
 				]
 		},
 	'panelScene6':
@@ -156,7 +156,7 @@ DataPanels.panels =
 			'panelHeight' : 500,
 			'sprites' :
 				[
-					{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 }
+					{ 'xPos' : 330, 'yPos' : 220, 'texture' : 'res_phone1.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 }
 				]
 		},
 	'panelScene7':
@@ -207,7 +207,7 @@ DataPanels.panels =
 				],
 			'sprites' :
 				[
-					{ 'xPos' : 100, 'yPos' : 350, 'texture' : 'res_bg_panel_white.png', 'sx' : 4, 'sy' : 1.5, 'alpha' : 1 },
+					{ 'xPos' : 100, 'yPos' : 310, 'texture' : 'res_phone2.png', 'sx' : 0.6, 'sy' : .6, 'alpha' : 1 },
 				]
 		},
 	'panelScene8':
@@ -257,7 +257,7 @@ DataPanels.panels =
 				],
 			'sprites' :
 				[
-					{ 'xPos' : 100, 'yPos' : 350, 'texture' : 'res_bg_panel_white.png', 'sx' : 4, 'sy' : 1.5, 'alpha' : 1 },
+					{ 'xPos' : 100, 'yPos' : 310, 'texture' : 'res_phone2.png', 'sx' : 0.6, 'sy' : .6, 'alpha' : 1 },
 				]
 		},
 	'panelScene10':
@@ -290,7 +290,7 @@ DataPanels.panels =
 				],
 			'sprites' :
 				[
-					{ 'xPos' : 630, 'yPos' : 200, 'texture' : 'res_bg_panel_white.png', 'sx' : 4, 'sy' : 1.5, 'alpha' : 1 },
+					{ 'xPos' : 630, 'yPos' : 100, 'texture' : 'res_secretary.png', 'sx' : 0.9, 'sy' : .8, 'alpha' : 1 },
 				]
 		},
 	'panelScene11':
@@ -335,7 +335,7 @@ DataPanels.panels =
 				],
 			'sprites' :
 				[
-					{ 'xPos' : 100, 'yPos' : 350, 'texture' : 'res_bg_panel_white.png', 'sx' : 4, 'sy' : 1.5, 'alpha' : 1 },
+					{ 'xPos' : 100, 'yPos' : 310, 'texture' : 'res_phone2.png', 'sx' : 0.6, 'sy' : .6, 'alpha' : 1 },
 				]
 		},
   'panelQuestions':
