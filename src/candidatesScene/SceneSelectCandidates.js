@@ -51,9 +51,27 @@ SceneSelectCandidates.prototype.createScene = function()
 			t_columnCounter = 0;
 			t_rowCounter += 1;
 		}
+
+		if ( !this.isCandidateEnabled( q + 1 ) )
+		{
+			t_newControl.alpha = 0.5;
+		}
 	}
 };
 
+SceneSelectCandidates.prototype.isCandidateEnabled = function( p_id )
+{
+	switch ( p_id )
+	{
+		case 1:
+		case 12:
+		case 15:
+		case 17:
+		case 10:
+			return true;
+	}
+	return false;
+};
 
 SceneSelectCandidates.prototype.onPointerDown = function( p_id )
 {	
@@ -63,6 +81,11 @@ SceneSelectCandidates.prototype.onPointerDown = function( p_id )
 	}
 	
 	if ( this.checkIfSelected( p_id ) )
+	{
+		return;
+	}
+
+	if ( !this.isCandidateEnabled( p_id ) )
 	{
 		return;
 	}

@@ -96,6 +96,17 @@ SceneQuestions.prototype.createScene = function()
 			this.m_texts.push( t_gText );
 		}
 	}
+	
+	var t_candidates = AppSettings.instance.user_selectedCandidates;
+
+	this.m_texts[0].setText( this.m_pilar.toUpperCase() );
+
+	for ( var q = 0; q < t_candidates.length; q++ )
+	{
+		var t_candidateProposal = t_candidates[q]['proposals'][this.m_pilar];
+		this.m_texts[q + 1].setText( t_candidateProposal );
+	}
+
 };
 
 SceneQuestions.prototype.onPointerDown = function( p_id )
@@ -103,11 +114,17 @@ SceneQuestions.prototype.onPointerDown = function( p_id )
 	console.log( 'foo: ' + p_id );
 	if ( AppSettings.instance.user_currentPilar == AppSettings.instance.user_selectedPilars.length - 1 )
 	{
+		AppSettings.instance.user_selectedCandidates[p_id - 1].numMatches++;
 		console.log( 'Check result' );
+
+		
+
 		GEngine.GSceneManager.instance.changeScene( GEngine.GSceneManager.SCENE_INTRO )
 	}
 	else
 	{
+		/// Add the count to the corresponding candidate
+		AppSettings.instance.user_selectedCandidates[p_id - 1].numMatches++;
 		AppSettings.instance.user_currentPilar++;
 		GEngine.GSceneManager.instance.changeScene( GEngine.GSceneManager.SCENE_PROPOSALS,
 													{ 'pilar': AppSettings.instance.user_selectedPilars[AppSettings.instance.user_currentPilar] } );

@@ -1,195 +1,385 @@
 {
-    "candidates":
-    [
-        {
-          "id": 1,
-          "nom": "ALAN GABRIEL LUDWIG",
-          "ape": "GARCIA PEREZ",
-          "age": "66",
-          "prof": "ABOGADO",
-          "prov": "LIMA",
-          "org": "ALIANZA POPULAR",
-          "st": "ACTIVO"
-        },
-        {
-          "id"    : 2,
-          "nom"   : "ALEJANDRO",
-          "ape"   : "TOLEDO MANRRIQUE",
-          "age"   : "70",
-          "prof"  : "ECONOMISTA",
-          "prov"  : "ANCASH",
-          "org"   : "PERU POSIBLE",
-          "st"    : "ACTIVO"
-        },
-        {
-          "id"    : 3,
-          "nom"   : "ANTERO",
-          "ape"   : "FLORES ARAOZ ESPARZA",
-          "age"   : "73",
-          "prof"  : "ABOGADO",
-          "prov"  : "LIMA",
-          "org"   : "PARTIDO POLITICO ORDEN",
-          "st"    : "ACTIVO"
-        },
-        {
-          "id"    : 4,
-          "nom"   : "CESAR",
-          "ape"   : "ACUÑA PERALTA",
-          "age"   : "63",
-          "prof"  : "INGENIERO",
-          "prov"  : "CAJAMARCA",
-          "org"   : "ALIANZA PARA EL PROGRESO DEL PERU",
-          "st"    : "TACHADO"
-        },
-        {
-          "id"    : 5,
-          "nom"   : "DANIEL BELIZARIO",
-          "ape"   : "URRESTI ELERA",
-          "age"   : "59",
-          "prof"  : "MILITAR",
-          "prov"  : "PIURA",
-          "org"   : "PARTIDO NACIONALISTA PERUANO",
-          "st"    : "RENUNCIO"
-        },
-        {
-          "id"    : 6,
-          "nom"   : "FELIPE BALDOMERO",
-          "ape"   : "CASTILLO ALFARO",
-          "age"   : "66",
-          "prof"  : "MEDICO",
-          "prov"  : "ANCASH",
-          "org"   : "SIEMPRE JUNTOS",
-          "st"    : "RENUNCIO"
-        },
-        {
-          "id"    : 7,
-          "nom"   : "FRANCISCO ERNESTO",
-          "ape"   : "DIES-CANSECO TAVARA",
-          "age"   : "69",
-          "prof"  : "ABOGADO",
-          "prov"  : "LIMA",
-          "org"   : "PERU NACION",
-          "st"    : "ACTIVO"
-        },
-        {
-          "id"    : 8,
-          "nom"   : "GRECIRIO",
-          "ape"   : "SANTOS GUERRERO",
-          "age"   : "49",
-          "prof"  : "DOCENTE",
-          "prov"  : "CAJAMARCA",
-          "org"   : "DEMOCRACIA DIRECTA",
-          "st"    : "ACTIVO"
-        },
-        {
-          "id"    : 9,
-          "nom"   : "HERNANDO",
-          "ape"   : "GUERRA GARCIA CAMPOS",
-          "age"   : "52",
-          "prof"  : "ABOGADO",
-          "prov"  : "LIMA",
-          "org"   : "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
-          "st"    : "ACTIVO"
-        },
-        {
-          "id"    : 10,
-          "nom"   : "ISAAC ALFREDO",
-          "ape"   : "BARNECHEA GARCIA",
-          "age"   : "63",
-          "prof"  : "ESCRITOR",
-          "prov"  : "ICA",
-          "org"   : "ACCION POPULAR",
-          "st"    : "ACTIVO"
-        },
-        {
-          "id"    : 11,
-          "nom"   : "JULIO ARMANDO",
-          "ape"   : "GUZMAN CACERES",
-          "age"   : "45",
-          "prof"  : "ECONOMISTA",
-          "prov"  : "LIMA",
-          "org"   : "TODOS POR EL PERU",
-          "st"    : "TACHADO"
-        },
-        {
-          "id"    : 12,
-          "nom"   : "KEIKO SOFIA",
-          "ape"   : "FUJIMORI HIGUCHI",
-          "age"   : "40",
-          "prof"  : "ADMINISTRADOR",
-          "prov"  : "LIMA",
-          "org"   : "FUERZA POPULAR",
-          "st"    : "ACTIVO"
-        },
-        {
-          "id"    : 13,
-          "nom"   : "LUIS FERNANDO",
-          "ape"   : "OLIVERA VEGA",
-          "age"   : "57",
-          "prof"  : "ADMINISTRADOR",
-          "prov"  : "LIMA",
-          "org"   : "FRENTE ESPERANZA",
-          "st"    : "ACTIVO"
-        },
-        {
-          "id"    : 14,
-          "nom"   : "MIGUEL WALTER",
-          "ape"   : "HILARIO ESCOBAR",
-          "age"   : "45",
-          "prof"  : "ECONOMISTA",
-          "prov"  : "UCAYALI",
-          "org"   : "PROGRESANDO PERU",
-          "st"    : "ACTIVO"
-        },
-        {
-          "id"    : 15,
-          "nom"   : "PEDRO PABLO",
-          "ape"   : "KUCZYNSKI GODARD",
-          "age"   : "77",
-          "prof"  : "ECONOMIST",
-          "prov"  : "LIM",
-          "org"   : "PERUANOS POR EL CAMBIO",
-          "st"    : "ACTIVO"
-        },
-        {
-          "id"    : 16,
-          "nom"   : "RENZO ANDRES",
-          "ape"   : "REGGIARDO BARRETO",
-          "age"   : "43",
-          "prof"  : "ABOGADO",
-          "prov"  : "LIMA",
-          "org"   : "PERU PATRIA SEGURA",
-          "st"    : "RENUNCIO"
-        },
-        {
-          "id"    : 17,
-          "nom"   : "VERONIKA FANNY",
-          "ape"   : "MENDOZA FRISCH",
-          "age"   : "35",
-          "prof"  : "PSICOLOGA",
-          "prov"  : "CUSCO",
-          "org"   : "EL FRENTE AMPLIO POR JUSTICIA, VIDA Y LIBERTAD",
-          "st"    : "ACTIVO"
-        },
-        {
-          "id"    : 18,
-          "nom"   : "VLADIMIR ROY",
-          "ape"   : "CERRON ROJAS",
-          "age"   : "45",
-          "prof"  : "MEDICO",
-          "prov"  : "JUNIN",
-          "org"   : "PERU LIBERTARIO",
-          "st"    : "ACTIVO"
-        },
-        {
-          "id"    : 19,
-          "nom"   : "YEHUDE",
-          "ape"   : "SIMON MUNARO",
-          "age"   : "68",
-          "prof"  : "ABOGADO",
-          "prov"  : "LIMA",
-          "org"   : "PARTIDO HUMANISTA PERUANO",
-          "st"    : "ACTIVO"
-        }
-    ]
+  "candidates" : [
+    {
+      "id": 1,
+      "name": "Alan GARCÍA",
+      "org": "Alianza Popular",
+      "prof": "Abogado",
+      "age": "66",
+      "prov": "Lima",
+      "picture": null,
+      "proposals": {
+        "education": "Incrementar anualmente el 0.30% para el sector de educación pública, que permita alcanzar el 6% del PBI al 2021.",
+        "health": "Promover la articulación de Redes Integradas de Salud para garantizar una atención de calidad y oportuna a los peruanos.",
+        "environment": "Promover buenas prácticas de residuos sólidos para evitar la contaminación ambiental.",
+        "security": "Garantizar la seguridad ciudadana con presencia de las FF.AA. , de manera temporal y en determinadas áreas geográficas, para disuadir a la delincuencia.",
+        "Laboral": "Implementar el certificado de buenas prácticas laborales dirigido a fomentar un mejor clima laboral premiando a las empresas con incentivos tributarios.",
+        "Science": "Promover cambios en el Plan Curricular Escolar, incorporando el uso masivo de la TICs."
+      },
+      "url": "http://www.votoinformado.pe/voto/plan-de-gobierno-candidato.aspx?p=tlQSb3OZcVuYNMmq1WWNuA==",
+      "st": "ACTIVO"
+    },
+
+    {
+      "id": 2,
+      "name": "Alejandro TOLEDO",
+      "org": "Perú Posible",
+      "prof": "Economista",
+      "age": "70",
+      "prov": "Ancash",
+      "picture": null,
+      "proposals": {
+        "education": "",
+        "health": "",
+        "environment": "",
+        "security": "",
+        "Laboral": "",
+        "Science": ""
+      },
+      "url": "",
+      "st": "ACTIVO"
+    },
+
+    {
+      "id": 3,
+      "name": "Ántero FLÓREZ ARÁOZ",
+      "org": "Partido Político Orden",
+      "prof": "Abogado",
+      "age": "73",
+      "prov": "Lima",
+      "picture": null,
+      "proposals": {
+        "education": "",
+        "health": "",
+        "environment": "",
+        "security": "",
+        "Laboral": "",
+        "Science": ""
+      },
+      "url": "",
+      "st": "ACTIVO"
+    },
+
+    {
+      "id": 4,
+      "name": "Cesar ACUÑA PERALTA",
+      "org": "Alianza para el progreso del Perú",
+      "prof": "Ingeniero",
+      "age": "63",
+      "prov": "Cajamarca",
+      "picture": null,
+      "proposals": {
+        "education": "",
+        "health": "",
+        "environment": "",
+        "security": "",
+        "Laboral": "",
+        "Science": ""
+      },
+      "url": "",
+      "st": "TACHADO"
+    },
+
+    {
+      "id": 5,
+      "name": "Daniel URRESTI",
+      "org": "Partido Nacionalista Peruano",
+      "prof": "Militar",
+      "age": "59",
+      "prov": "Piura",
+      "picture": null,
+      "proposals": {
+        "education": "",
+        "health": "",
+        "environment": "",
+        "security": "",
+        "Laboral": "",
+        "Science": ""
+      },
+      "url": "",
+      "st": "RENUNCIO"
+    },
+
+    {
+      "id": 6,
+      "name": "Felipe CASTILLO ALFARO",
+      "org": "Siempre Juntos",
+      "prof": "Médico",
+      "age": "66",
+      "prov": "Ancash",
+      "picture": null,
+      "proposals": {
+        "education": "",
+        "health": "",
+        "environment": "",
+        "security": "",
+        "Laboral": "",
+        "Science": ""
+      },
+      "url": "",
+      "st": "RENUNCIO"
+    },
+
+    {
+      "id": 7,
+      "name": "Francisco DIEZ-CANSECO",
+      "org": "Perú Nación",
+      "prof": "Abogado",
+      "age": "69",
+      "prov": "Lima",
+      "picture": null,
+      "proposals": {
+        "education": "",
+        "health": "",
+        "environment": "",
+        "security": "",
+        "Laboral": "",
+        "Science": ""
+      },
+      "url": "",
+      "st": "ACTIVO"
+    },
+
+    {
+      "id": 8,
+      "name": "Gregorio SANTOS",
+      "org": "Democracia Directa",
+      "prof": "Docente",
+      "age": "49",
+      "prov": "Cajamarca",
+      "picture": null,
+      "proposals": {
+        "education": "",
+        "health": "",
+        "environment": "",
+        "security": "",
+        "Laboral": "",
+        "Science": ""
+      },
+      "url": "",
+      "st": "ACTIVO"
+    },
+
+    {
+      "id": 9,
+      "name": "Hernando GUERRA",
+      "org": "Alianza Electoral Solidaridad Nacional - UPP",
+      "prof": "Abogado",
+      "age": "52",
+      "prov": "Lima",
+      "picture": null,
+      "proposals": {
+        "education": "",
+        "health": "",
+        "environment": "",
+        "security": "",
+        "Laboral": "",
+        "Science": ""
+      },
+      "url": "",
+      "st": "ACTIVO"
+    },
+
+    {
+      "id": 10,
+      "name": "Alfredo BARNECHEA",
+      "org": "Acción Popular",
+      "prof": "Escritor",
+      "age": "63",
+      "prov": "Ica",
+      "picture": null,
+      "proposals": {
+        "education": "Continuar con el mejoramiento la educación básica, a través de la actualización curricular e incrementar en un año la educación secundaria.",
+        "health": "La inversión per cápita en el sector salud, continuara aumentando desde el nivel Actual de 354 dólares, hasta doblarse en el quinquenio expandiendo el SIS a todo el territorio de la Republica.",
+        "environment": "Promover el desarrollo armónico con la naturaleza y el uso racional de los recursos naturales, generando una sostenibilidad económica, ambiental y social.",
+        "security": "Reducir la tasa de desempleo y la de subempleo, por la promoción y el crecimiento de la inversión, pública y privada.",
+        "Laboral": "Garantizar un Tasa de crecimiento anual del empleo formal de 6%, con por lo menos 300,000 nuevos empleos anuales creados.",
+        "Science": "Crear la Política de Innovación, Ciencia y Tecnología, se expandirá la inversión del país en CTI desde la educación e integrando la academia, las empresas y las instituciones públicas y de gobierno."
+      },
+      "url": "http://www.votoinformado.pe/voto/plan-de-gobierno-candidato.aspx?p=YAO7BPtEwnZA1JKjYPi5bg==",
+      "st": "ACTIVO"
+    },
+
+    {
+      "id": 11,
+      "name": "Julio GUZMAN",
+      "org": "Todos por el Perú",
+      "prof": "Economista",
+      "age": "45",
+      "prov": "Lima",
+      "picture": null,
+      "proposals": {
+        "education": "",
+        "health": "",
+        "environment": "",
+        "security": "",
+        "Laboral": "",
+        "Science": ""
+      },
+      "url": "",
+      "st": "TACHADO"
+    },
+
+    {
+    "id": 12,
+    "name": "Keiko FUJIMORI",
+    "org": "Fuerza Popular",
+    "prof": "Administrador",
+    "age": "40",
+    "prov": "Lima",
+    "picture": null,
+    "proposals": {
+      "education": "Garantizar aprendizajes útiles y que contribuyan al desarrollo de las personas, sus talentos y capacidades.",
+      "health": "Garantizar el acceso universal a la Atención Primaria de Salud (APS) en todas las localidades del país.",
+      "environment": "Impulsar el uso de energías renovables a través de la reconversión energética en el marco del acuerdo de COP21.",
+      "security": "Implementar una plataforma tecnológica orientada a integrar sistemas de información para vigilancia aéreo del territorio nacional.",
+      "Laboral": "Implementar el certificado de buenas prácticas laborales dirigido a fomentar un mejor clima laboral premiando a las empresas con incentivos tributarios.",
+      "Science": "Garantizar que el 90% de las localidades del Perú cuenten con acceso a internet mediante la facilitación en zonas rurales."
+    },
+    "url": "http://www.votoinformado.pe/voto/plan-de-gobierno-candidato.aspx?p=H6D4T5j3KFO2/z2EkcXKsQ==",
+    "st": "ACTIVO"
+  },
+
+  {
+    "id": 13,
+    "name": "Fernando OLIVERA",
+    "org": "Frente Esperanza",
+    "prof": "Administrador",
+    "age": "57",
+    "prov": "Lima",
+    "picture": null,
+    "proposals": {
+      "education": "",
+      "health": "",
+      "environment": "",
+      "security": "",
+      "Laboral": "",
+      "Science": ""
+    },
+    "url": "",
+    "st": "ACTIVO"
+  },
+
+  {
+    "id": 14,
+    "name": "Miguel HILARIO",
+    "org": "Progresando Perú",
+    "prof": "Administrador",
+    "age": "45",
+    "prov": "Ucayali",
+    "picture": null,
+    "proposals": {
+      "education": "",
+      "health": "",
+      "environment": "",
+      "security": "",
+      "Laboral": "",
+      "Science": ""
+    },
+    "url": "",
+    "st": "ACTIVO"
+  },
+
+  {
+    "id": 15,
+    "name": "Pedro Pablo KUCZYNSKI",
+    "org": "Peruanos por el Kambio",
+    "prof": "Economista",
+    "age": "77",
+    "prov": "Lima",
+    "picture": null,
+    "proposals": {
+      "education": "Lograr que al 2021 el Perú se ubique en el puesto 40 del Programa Internacional para la Evaluación de Estudiantes (PISA).",
+      "health": "Garantizar una cobertura de 95% de la población con servicios públicos de salud.",
+      "environment": "Garantizar que para el 2021, todas las regiones del país tendrán una planta de manejo de residuos sólidos funcionando de manera adecuada.",
+      "security": "Reducir del 30.8%4 (2014) al 19.0% (2021) la victimización personal por delincuencia.",
+      "Laboral": "Crear tres millones de puestos de trabajo formales en los cinco años de gobierno: la mitad serían nuevos puestos y el resto, producto de la formalización.",
+      "Science": "Se fortalecerá el Fondo Nacional para el Desarrollo de la Ciencia y Tecnología (FONDECYT)."
+    },
+    "url": "http://www.votoinformado.pe/voto/plan-de-gobierno-candidato.aspx?p=LY2dKAohPUYfndrwJjVjeA==",
+    "st": "ACTIVO"
+  },
+
+  {
+    "id": 16,
+    "name": "Renzo REGGIARDO BARRETO",
+    "org": "Perú Patria Segura",
+    "prof": "ABOGADO",
+    "age": "43",
+    "prov": "Lima",
+    "picture": null,
+    "proposals": {
+      "education": "",
+      "health": "",
+      "environment": "",
+      "security": "",
+      "Laboral": "",
+      "Science": ""
+    },
+    "url": "",
+    "st": "RENUNCIO"
+  },
+
+  {
+    "id": 17,
+    "name": "Verónica MENDOZA",
+    "org": "El Frente Amplio por la Justicia, Vida y Libertad",
+    "prof": "Psicóloga",
+    "age": "35",
+    "prov": "Cusco",
+    "picture": null,
+    "proposals": {
+      "education": "Garantizar que al 2021 el 90% de instituciones educativas y redes territoriales cuentan con equipos completos de docentes especializados.",
+      "health": "Contar con el Plan Nacional de Atención en Salud homologado en el sistema de salud, el cual garanztiza una atención igualitaria.",
+      "environment": "Promover y realizar campañas nacionales para sensibilizar sobre el cuidado y la defensa del hábitat natural y promover un modelo de desarrollo armonioso.",
+      "security": "Nombrar un Zar de la Seguridad Ciudadana a la cabeza del Sistema Nacional de Seguridad Ciudadana.",
+      "Laboral": "Garantizar un Tasa de crecimiento anual del empleo formal de 6%, con por lo menos 300,000 nuevos empleos anuales creados.",
+      "Science": "Establecer la creación de un Ministerio de Ciencia, Tecnología e Innovación."
+    },
+    "url": "http://www.votoinformado.pe/voto/plan-de-gobierno-candidato.aspx?p=3iz9wlxoUauNn0QrROG6mg==",
+    "st": "ACTIVO"
+  },
+
+  {
+    "id": 18,
+    "name": "Vladimir CERRÓN",
+    "org": "Perú Libertario",
+    "prof": "Médico",
+    "age": "45",
+    "prov": "Junín",
+    "picture": null,
+    "proposals": {
+      "education": "",
+      "health": "",
+      "environment": "",
+      "security": "",
+      "Laboral": "",
+      "Science": ""
+    },
+    "url": "",
+    "st": "ACTIVO"
+  },
+
+  {
+    "id": 19,
+    "name": "Yehude SIMON",
+    "org": "Partido Humanista Peruano",
+    "prof": "Abogado",
+    "age": "68",
+    "prov": "Lima",
+    "picture": null,
+    "proposals": {
+      "education": "",
+      "health": "",
+      "environment": "",
+      "security": "",
+      "Laboral": "",
+      "Science": ""
+    },
+    "url": "",
+    "st": "ACTIVO"
+  }
+
+  ]
+
 }
