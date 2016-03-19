@@ -349,52 +349,51 @@ DataPanels.panels =
 					[
 						{
 							'xPos' : 450,
-							'yPos' : 450,
-							'textId' : 'STR_QUESTION',
+							'yPos' : 100,
+							'textId' : 'STR_QUESTION_TITTLE',
 							'effect' : null
 						},
 						{
-							'xPos' : 450,
-							'yPos' : 450,
-							'textId' : 'STR_QUESTION',
+							'xPos' : 150,
+							'yPos' : 200,
+							'textId' : 'STR_QUESTION_GENERIC',
 							'effect' : null
 						},
 						{
-							'xPos' : 450,
-							'yPos' : 450,
-							'textId' : 'STR_QUESTION',
+							'xPos' : 150,
+							'yPos' : 275,
+							'textId' : 'STR_QUESTION_GENERIC',
 							'effect' : null
 						},
 						{
-							'xPos' : 450,
-							'yPos' : 450,
-							'textId' : 'STR_QUESTION',
+							'xPos' : 150,
+							'yPos' : 350,
+							'textId' : 'STR_QUESTION_GENERIC',
 							'effect' : null
 						},
 						{
-							'xPos' : 450,
-							'yPos' : 450,
-							'textId' : 'STR_QUESTION',
+							'xPos' : 150,
+							'yPos' : 425,
+							'textId' : 'STR_QUESTION_GENERIC',
 							'effect' : null
 						},
 						{
-							'xPos' : 450,
-							'yPos' : 450,
-							'textId' : 'STR_QUESTION',
+							'xPos' : 150,
+							'yPos' : 500,
+							'textId' : 'STR_QUESTION_GENERIC',
 							'effect' : null
 						}
 					],
 				'sprites' :
 					[
-						{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 },
-						{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 },
-						{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 },
-						{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 },
-						{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 },
-						{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 }
+						{ 'xPos' : 250, 'yPos' : 100, 'texture' : 'res_bg_panel_white.png', 'sx' : 5, 'sy' : 0.5, 'alpha' : 0.25, 'interactive' : false },
+						{ 'xPos' : 150, 'yPos' : 200, 'texture' : 'res_bg_panel_white.png', 'sx' : 5, 'sy' : 0.5, 'alpha' : 0.25, 'interactive' : true },
+						{ 'xPos' : 150, 'yPos' : 275, 'texture' : 'res_bg_panel_white.png', 'sx' : 5, 'sy' : 0.5, 'alpha' : 0.25, 'interactive' : true },
+						{ 'xPos' : 150, 'yPos' : 350, 'texture' : 'res_bg_panel_white.png', 'sx' : 5, 'sy' : 0.5, 'alpha' : 0.25, 'interactive' : true },
+						{ 'xPos' : 150, 'yPos' : 425, 'texture' : 'res_bg_panel_white.png', 'sx' : 5, 'sy' : 0.5, 'alpha' : 0.25, 'interactive' : true },
+						{ 'xPos' : 150, 'yPos' : 500, 'texture' : 'res_bg_panel_white.png', 'sx' : 5, 'sy' : 0.5, 'alpha' : 0.25, 'interactive' : true }
 					]
 			},
-
 	'panelIncorrect':
 			{
 				'bg' : 'res_bg_panel_black.png',
@@ -456,7 +455,7 @@ DataPanels.panels =
 						'textId' : 'STR_WINNER_ORIGIN',
 						'effect' : null //{ 'id' : 'typewriter', 'dt': 200 }
 					}
-				]
+				],
 				'sprites' :
 					[ 
 						{ 'xPos' : 225, 'yPos' : 170, 'texture' : 'res_chair.png', 'sx' : 0.65, 'sy' : 0.55, 'alpha' : 1 },

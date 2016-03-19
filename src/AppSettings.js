@@ -17,6 +17,8 @@ function AppSettings()
 	this.user_selectedPilars = null;
 	/** @type {Array.<Candidate>} */
 	this.user_selectedCandidates = null;
+	/** @type {number} */
+	this.user_currentPilar = 0;
 };
 
 /** @type {AppSettings} */ AppSettings.instance = null;
@@ -32,6 +34,7 @@ AppSettings.prototype.resetData = function()
 {
 	this.user_selectedPilars = null;
 	this.user_selectedCandidates = null;
+	this.user_currentPilar = 0;
 };
 
 AppSettings.loadJson = function( p_callback, p_file )

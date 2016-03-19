@@ -3,6 +3,8 @@ var G_ROOT_PATH = 'src/';
 
 var G_BOOT_FILES = 
 [
+	"candidatesScene/Candidate.js",
+	"AppSettings.js",
 	"core/GSprite.js",
 	"core/GScene.js",
 	"core/ui/GEffectTypeWriter.js",
@@ -11,8 +13,10 @@ var G_BOOT_FILES =
 	"core/GSceneManager.js",
 	"introScene/BasePanel.js",
 	"introScene/IntroPanel.js",
-	"introScene/SceneIntro.js"
-
+	"introScene/SceneIntro.js",
+	"candidatesScene/SceneSelectCandidates.js",
+	"candidatesScene/SceneSelectPilars.js",
+	"candidatesScene/SceneQuestions.js"
 ]
 
 function includeScript( p_script )

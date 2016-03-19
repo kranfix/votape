@@ -40,7 +40,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":294,"h":294},
 	"sourceSize": {"w":294,"h":294}
 },
-"res_tecnology.png":
+"res_technology.png":
 {
 	"frame": {"x":587,"y":294,"w":293,"h":294},
 	"rotated": false,

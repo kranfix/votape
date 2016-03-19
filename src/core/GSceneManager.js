@@ -14,8 +14,9 @@ GEngine.GSceneManager = function( p_mainCanvas )
 GEngine.GSceneManager.instance = null;
 GEngine.GSceneManager.SCENE_INTRO 				= "sceneIntro";
 GEngine.GSceneManager.SCENE_SELECT_CANDIDATE 	= "sceneSelectCandidate";
-GEngine.GSceneManager.SCENE_SELECT_CANDIDATE 	= "sceneSelectCandidate";
 GEngine.GSceneManager.SCENE_CANDIDATE_INFO 		= "sceneCandidateInfo";
+GEngine.GSceneManager.SCENE_SELECT_PILARS 		= "sceneSelectPilars";
+GEngine.GSceneManager.SCENE_PROPOSALS 			= "sceneProposals";
 
 GEngine.GSceneManager.prototype.init = function()
 {
@@ -27,18 +28,36 @@ GEngine.GSceneManager.prototype.init = function()
 	this.m_appBg.scale.y = this.m_appBg.scale.x;
 
 	this.changeScene( GEngine.GSceneManager.SCENE_INTRO );
+	///this.changeScene( GEngine.GSceneManager.SCENE_PROPOSALS );
 };
 
-GEngine.GSceneManager.prototype.changeScene = function( p_sceneId )
+GEngine.GSceneManager.prototype.changeScene = function( p_sceneId, p_params )
 {
+	if ( this.m_currentScene != null )
+	{
+		this.m_currentScene.free();
+	}
 	switch ( p_sceneId )
 	{
 		case GEngine.GSceneManager.SCENE_SELECT_CANDIDATE:
+			this.m_currentScene = new SceneSelectCandidates( this.canvas );
+			break;
 
 		case GEngine.GSceneManager.SCENE_CANDIDATE_INFO:
+			
+			break;
+
+		case GEngine.GSceneManager.SCENE_SELECT_PILARS:
+			this.m_currentScene = new SceneSelectPilars( this.canvas );
+			break;
+
+		case GEngine.GSceneManager.SCENE_PROPOSALS:
+			this.m_currentScene = new SceneQuestions( this.canvas, p_params );
+			break;
 
 		case GEngine.GSceneManager.SCENE_INTRO:
 			this.m_currentScene = new SceneIntro( this.canvas );
+			break;
 	}
 };
 

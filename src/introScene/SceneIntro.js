@@ -55,6 +55,7 @@ SceneIntro.prototype.update = function( p_dt )
 			if ( this.m_panelIndx > this.m_introPanels.length - 1 )
 			{
 				this.m_state = SceneIntro.ST_FINISHED;
+				GEngine.GSceneManager.instance.changeScene( GEngine.GSceneManager.SCENE_SELECT_CANDIDATE );
 			}
 			else
 			{

@@ -65,8 +65,13 @@ GEngine.App.prototype.init = function()
 GEngine.App.prototype.onAtlassesLoaded = function()
 {
 	console.info( 'App::onAtlassesLoaded> finished loading atlasses' );
-	GEngine.App.instance.setState( GEngine.App.ST_RUNNING );
-	GEngine.App.instance.onApplicationStarted();
+
+	console.info( 'App::onAtlassesLoaded> loading candidates basic info' );
+
+	AppSettings.create();
+
+	///GEngine.App.instance.setState( GEngine.App.ST_RUNNING );
+	///GEngine.App.instance.onApplicationStarted();
 };
 
 GEngine.App.prototype.setState = function( p_state )
@@ -132,6 +137,14 @@ GEngine.App.prototype.onTick = function()
 		if ( this.m_sceneManager != null )
 		{
 			this.m_sceneManager.update( this.m_timeDelta );
+		}
+	}
+	else if ( this.m_state == GEngine.App.ST_INITIAL_LOADING )
+	{
+		if ( AppSettings.instance && AppSettings.instance.ready )
+		{
+			GEngine.App.instance.setState( GEngine.App.ST_RUNNING );
+			GEngine.App.instance.onApplicationStarted();
 		}
 	}
 };
