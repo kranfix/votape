@@ -1,0 +1,52 @@
+{"frames": {
+
+"res_check.png":
+{
+	"frame": {"x":1,"y":1,"w":130,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":130},
+	"sourceSize": {"w":130,"h":130}
+},
+"res_check1.png":
+{
+	"frame": {"x":133,"y":1,"w":130,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":130},
+	"sourceSize": {"w":130,"h":130}
+},
+"res_check2.png":
+{
+	"frame": {"x":265,"y":1,"w":130,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":130},
+	"sourceSize": {"w":130,"h":130}
+},
+"res_phone1.png":
+{
+	"frame": {"x":1,"y":133,"w":422,"h":327},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":422,"h":327},
+	"sourceSize": {"w":422,"h":327}
+},
+"res_star1.png":
+{
+	"frame": {"x":1,"y":462,"w":130,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":130},
+	"sourceSize": {"w":130,"h":130}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "slash.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2e42e4a1f5b386ae9e23f50ccbd8b754:c80e29604478448f87b322113f71cd04:4c2a936d85c11c400a98373d644f3e1c$"
+}
+}
