@@ -393,5 +393,77 @@ DataPanels.panels =
 						{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 },
 						{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 }
 					]
+			},
+
+	'panelIncorrect':
+			{
+				'bg' : 'res_bg_panel_black.png',
+				'xPos' : 100,
+				'yPos' : 50,
+				'panelWidth' : 900,
+				'panelHeight' : 500,
+				'sprites' :
+					[ 
+						{ 'xPos' : 605, 'yPos' : 170, 'texture' : 'res_chair.png', 'sx' : 0.65, 'sy' : 0.55, 'alpha' : 1 },
+						{ 'xPos' : 260, 'yPos' : 190, 'texture' : 'res_body2.png', 'sx' : 0.65, 'sy' : 0.55, 'alpha' : 1 },
+						{ 'xPos' : 580, 'yPos' : 190, 'texture' : 'res_body1.png', 'sx' : 0.65, 'sy' : 0.55, 'alpha' : 1 },
+						{ 'xPos' : 645, 'yPos' : 90, 'texture' : 'res_doll_17.png', 'sx' : 0.3, 'sy' : 0.3, 'alpha' : 1 },
+						{ 'xPos' : 300, 'yPos' : 90, 'texture' : 'res_doll_15.png', 'sx' : 0.3, 'sy' : 0.3, 'alpha' : 1 },
+						{ 'xPos' : 375, 'yPos' : 135, 'texture' : 'res_informate2.png', 'sx' : 0.3, 'sy' : 0.3, 'alpha' : 1 },
+						{ 'xPos' : 260, 'yPos' : 450, 'texture' : 'res_informate.png', 'sx' : 0.4, 'sy' : 0.4, 'alpha' : 1 },
+						{ 'xPos' : 615, 'yPos' : 450, 'texture' : 'res_informate.png', 'sx' : 0.4, 'sy' : 0.4, 'alpha' : 1 },
+						//{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 },
+						//{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 }
+					]
+
+			},
+	'panelCorrect':
+			{
+				'bg' : 'res_bg_panel_black.png',
+				'xPos' : 100,
+				'yPos' : 50,
+				'panelWidth' : 900,
+				'panelHeight' : 500,
+				'texts' :
+				[
+					{
+						'xPos' : 400,
+						'yPos' : 120,
+						'textId' : 'STR_WINNER_NAME',
+						'effect' : null //{ 'id' : 'typewriter', 'dt': 200 }
+					},
+					{
+						'xPos' : 400,
+						'yPos' : 120,
+						'textId' : 'STR_WINNER_PARTY',
+						'effect' : null // { 'id' : 'typewriter', 'dt': 200 }
+					},
+					{
+						'xPos' : 400,
+						'yPos' : 170,
+						'textId' : 'STR_WINNER_PROFESSION',
+						'effect' : null // { 'id' : 'typewriter', 'dt': 200 }
+					},
+					{
+						'xPos' : 400,
+						'yPos' : 220,
+						'textId' : 'STR_WINNER_AGE',
+						'effect' : null //{ 'id' : 'typewriter', 'dt': 200 }
+					},
+					{
+						'xPos' : 400,
+						'yPos' : 270,
+						'textId' : 'STR_WINNER_ORIGIN',
+						'effect' : null //{ 'id' : 'typewriter', 'dt': 200 }
+					}
+				]
+				'sprites' :
+					[ 
+						{ 'xPos' : 225, 'yPos' : 170, 'texture' : 'res_chair.png', 'sx' : 0.65, 'sy' : 0.55, 'alpha' : 1 },
+						{ 'xPos' : 200, 'yPos' : 190, 'texture' : 'res_body1.png', 'sx' : 0.65, 'sy' : 0.55, 'alpha' : 1 },
+						{ 'xPos' : 260, 'yPos' : 90, 'texture' : 'res_doll_17.png', 'sx' : 0.3, 'sy' : 0.3, 'alpha' : 1 },
+						{ 'xPos' : 555, 'yPos' : 350, 'texture' : 'res_informate.png', 'sx' : 0.4, 'sy' : 0.4, 'alpha' : 1 },
+					]
+
 			}
 }
