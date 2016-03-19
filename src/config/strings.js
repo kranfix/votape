@@ -1,6 +1,6 @@
 
 
-window['strings'] = 
+window['strings'] =
 {
 	// strings for warning panel **********************************************************************************
 	'STR_PANEL2_WARNING' : { 'size' : 35, 'font' : 'Arial', 'align' : 'left', 'style' : 'bold',
@@ -17,7 +17,7 @@ window['strings'] =
 	'STR_TEAM_NAME' : { 'size' : 40, 'font' : 'Arial', 'align' : 'center', 'style' : 'bold',
 						'fill' : 'white', 'wordWrap' : false, 'wordWrapWidth' : 100,
 						'text' : 'DEMOCRACIA TEAM \n\r PRESENTA' },
-	// ************************************************************************************************************						
+	// ************************************************************************************************************
 	'STR_TEAM_NAME_1' : { 'size' : 50, 'font' : 'Arial', 'align' : 'center', 'style' : 'bold',
 						  'fill' : 'white', 'wordWrap' : false, 'wordWrapWidth' : 100,
 						'text' : 'DEMOCRACIA TEAM' },
@@ -27,5 +27,8 @@ window['strings'] =
 	'STR_PATRIOTA' : { 'size' : 30, 'font' : 'Arial', 'align' : 'center', 'style' : 'bold',
 						  'fill' : 'white', 'wordWrap' : false, 'wordWrapWidth' : 100,
 						  'text' : 'PATRIOTA' }
+  // ************************************************************************************************************
+	'STR_QUESTION' : { 'size' : 30, 'font' : 'Arial', 'align' : 'center', 'style' : 'bold',
+						  'fill' : 'white', 'wordWrap' : false, 'wordWrapWidth' : 100,
+						  'text' : 'PREGUNTA' }
 }
-
