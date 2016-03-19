@@ -1,5 +1,5 @@
 function getList() {
-    $.ajax({
+    var a = $.ajax({
       type: "GET",
       dataType: "json",
       url: "http://www.losclasificados.com.pe/votape/api/list",
@@ -10,7 +10,6 @@ function getList() {
         $('#res3').html('');*/
       },
       success: function(jsondata) {
-        return jsondata;
         /*var str = '';
         str += '<ul>';
         $.each(jsondata, function(idx, obj) {
@@ -20,7 +19,7 @@ function getList() {
         $('#res1').html(str);*/
       }
     });
-    return jsondata;
+    return a;
 }
 
 function getId (id) {
