@@ -10,6 +10,7 @@ function getList() {
         $('#res3').html('');*/
       },
       success: function(jsondata) {
+        testX(jsondata);
         /*var str = '';
         str += '<ul>';
         $.each(jsondata, function(idx, obj) {
@@ -19,8 +20,12 @@ function getList() {
         $('#res1').html(str);*/
       }
     });
-    return a;
 }
+
+
+function testX(contents){
+  console.log(contents);
+};
 
 function getId (id) {
     $.ajax({
