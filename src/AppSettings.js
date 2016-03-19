@@ -19,6 +19,8 @@ function AppSettings()
 	this.user_selectedCandidates = null;
 	/** @type {number} */
 	this.user_currentPilar = 0;
+	/** @type {Array.<Object>} */
+	this.stats = null;
 };
 
 /** @type {AppSettings} */ AppSettings.instance = null;
@@ -28,6 +30,24 @@ AppSettings.create = function()
 	AppSettings.instance = new AppSettings();
 	AppSettings.loadJson( AppSettings.instance.onBasicInfoLoaded,
 						  'assets/json/candidatesBasicInfo.json' );
+	getList();
+};
+
+AppSettings.prototype.onRefreshFromDB = function( p_content )
+{
+	this.stats = p_content;
+};
+
+AppSettings.prototype.onSendCoincidenceToDB = function( p_id )
+{
+	this.stats[p_id - 1]['coincidences']++;
+	Coincidences( p_id );
+};
+
+AppSettings.prototype.onSendFailureToDB = function( p_id )
+{
+	this.stats[p_id - 1]['fails']++;
+	Fails( p_id );
 };
 
 AppSettings.prototype.resetData = function()

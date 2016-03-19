@@ -23,8 +23,10 @@ function getList() {
 }
 
 
-function testX(contents){
-  console.log(contents);
+function testX( p_contents )
+{
+  AppSettings.instance.onRefreshFromDB( p_contents );
+  console.log( p_contents );
 };
 
 function getId (id) {
@@ -95,7 +97,7 @@ function Coincidences (id) {
         $('#res3').html('Sumando fails [3]...');
       },
       success: function (jsondata) {
-
+        /*
         var str = '';
         str += '<ul>';
         $.each(jsondata, function(idx, obj) {
@@ -103,7 +105,7 @@ function Coincidences (id) {
         });
         str += '</ul>';
         $('#res3').html(str);
-
+        */
      },
       error: function (jqXHR, status) {
          console.log(status);

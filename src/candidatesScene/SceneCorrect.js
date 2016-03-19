@@ -41,6 +41,15 @@ SceneCorrect.prototype.createScene = function()
 	this.getText( 'STR_WINNER_PROFESSION' ).setText( t_info.job );
 	this.getText( 'STR_WINNER_AGE' ).setText( t_info.age );
 	this.getText( 'STR_WINNER_ORIGIN' ).setText( t_info.province );
+
+	/// Replace the texts that are necessary
+	var t_textCoincidences = this.getText( 'STR_COINCIDENCES' );
+	var t_numCoincidences = AppSettings.instance.stats[this.m_favoriteId - 1]['coincidences'];
+	t_textCoincidences.setText( 'Coincidences: ' + t_numCoincidences );
+
+	var t_textFails = this.getText( 'STR_FAILS' );
+	var t_numFails = AppSettings.instance.stats[this.m_favoriteId - 1]['fails'];
+	t_textFails.setText( 'Fails: ' + t_numFails );
 };
 
 SceneCorrect.prototype.onPointerDown = function( g_id )

@@ -437,6 +437,21 @@ DataPanels.panels =
 				'yPos' : 50,
 				'panelWidth' : 900,
 				'panelHeight' : 500,
+				'texts' :
+					[
+						{
+							'xPos' : 450,
+							'yPos' : 515,
+							'textId' : 'STR_COINCIDENCES',
+							'effect' : null
+						},
+						{
+							'xPos' : 150,
+							'yPos' : 515,
+							'textId' : 'STR_FAILS',
+							'effect' : null
+						}
+					],
 				'sprites' :
 					[ 
 						{ 'xPos' : 605, 'yPos' : 170, 'texture' : 'res_chair.png', 'sx' : 0.65, 'sy' : 0.55, 'alpha' : 1 },
@@ -490,6 +505,18 @@ DataPanels.panels =
 						'yPos' : 300,
 						'textId' : 'STR_WINNER_ORIGIN',
 						'effect' : null //{ 'id' : 'typewriter', 'dt': 200 }
+					},
+					{
+						'xPos' : 450,
+						'yPos' : 500,
+						'textId' : 'STR_COINCIDENCES',
+						'effect' : null
+					},
+					{
+						'xPos' : 150,
+						'yPos' : 500,
+						'textId' : 'STR_FAILS',
+						'effect' : null
 					}
 				],
 				'sprites' :

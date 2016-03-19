@@ -131,4 +131,12 @@ window['strings'] =
 	'STR_WINNER_ORIGIN': { 'size' : 25, 'font' : 'Arial', 'align' : 'left', 'style' : 'bold',
 						  	  'fill' : 'white', 'wordWrap' : false, 'wordWrapWidth' : 100,
 						  	  'text' : 'NATURAL: ' },
+  // ************************************************************************************************************
+	'STR_COINCIDENCES': { 'size' : 25, 'font' : 'Arial', 'align' : 'left', 'style' : 'bold',
+						  	  'fill' : 'white', 'wordWrap' : false, 'wordWrapWidth' : 100,
+						  	  'text' : 'Coindicences:' },
+	'STR_FAILS': { 'size' : 25, 'font' : 'Arial', 'align' : 'left', 'style' : 'bold',
+						  	  'fill' : 'white', 'wordWrap' : false, 'wordWrapWidth' : 100,
+						  	  'text' : 'Fails: ' },
+
 }

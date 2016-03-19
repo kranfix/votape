@@ -122,12 +122,14 @@ SceneQuestions.prototype.onPointerDown = function( p_id )
 	
 		if ( t_favoriteCandidate.id !== t_bestCandidate.id )
 		{
+			AppSettings.instance.onSendFailureToDB( t_favoriteCandidate.id );
 			GEngine.GSceneManager.instance.changeScene( GEngine.GSceneManager.SCENE_INCORRECT,
 														{ 'favorite': t_favoriteCandidate.id,
 														  'best': t_bestCandidate.id } );
 		}
 		else
 		{
+			AppSettings.instance.onSendCoincidenceToDB( t_favoriteCandidate.id );
 			GEngine.GSceneManager.instance.changeScene( GEngine.GSceneManager.SCENE_CORRECT,
 														{ 'favorite': t_favoriteCandidate.id } );
 		}

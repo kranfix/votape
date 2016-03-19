@@ -109,7 +109,7 @@ SceneSelectPilars.prototype.checkIfSelected = function( p_id )
 {
 	for ( var q = 0; q < this.m_pilarsSelected.length; q++ )
 	{
-		if ( p_id == this.m_pilarsSelected[q].id )
+		if ( p_id == this.m_pilarsSelected[q] )
 		{
 			return true;
 		}

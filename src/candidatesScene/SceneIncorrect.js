@@ -49,6 +49,13 @@ SceneIncorrect.prototype.createScene = function()
 
 
 	/// Replace the texts that are necessary
+	var t_textCoincidences = this.getText( 'STR_COINCIDENCES' );
+	var t_numCoincidences = AppSettings.instance.stats[this.m_favoriteId - 1]['coincidences'];
+	t_textCoincidences.setText( 'Coincidences: ' + t_numCoincidences );
+
+	var t_textFails = this.getText( 'STR_FAILS' );
+	var t_numFails = AppSettings.instance.stats[this.m_favoriteId - 1]['fails'];
+	t_textFails.setText( 'Fails: ' + t_numFails );
 };
 
 SceneIncorrect.prototype.onPointerDown = function( g_id )
