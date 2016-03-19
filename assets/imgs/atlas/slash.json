@@ -39,6 +39,14 @@
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":130},
 	"sourceSize": {"w":130,"h":130}
+},
+"res_tachado.png":
+{
+	"frame": {"x":133,"y":462,"w":266,"h":268},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":266,"h":268},
+	"sourceSize": {"w":266,"h":268}
 }},
 "meta": {
 	"app": "http://www.codeandweb.com/texturepacker",
@@ -47,6 +55,6 @@
 	"format": "RGBA8888",
 	"size": {"w":512,"h":1024},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:2e42e4a1f5b386ae9e23f50ccbd8b754:c80e29604478448f87b322113f71cd04:4c2a936d85c11c400a98373d644f3e1c$"
+	"smartupdate": "$TexturePacker:SmartUpdate:7f7c520078931ba01e7fefb3429233b2:37624b53365f2eb98baff6673533f240:4c2a936d85c11c400a98373d644f3e1c$"
 }
 }
