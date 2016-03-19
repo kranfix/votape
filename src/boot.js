@@ -16,7 +16,10 @@ var G_BOOT_FILES =
 	"introScene/SceneIntro.js",
 	"candidatesScene/SceneSelectCandidates.js",
 	"candidatesScene/SceneSelectPilars.js",
-	"candidatesScene/SceneQuestions.js"
+	"candidatesScene/SceneQuestions.js",
+	"candidatesScene/SceneBaseResult.js",
+	"candidatesScene/SceneIncorrect.js",
+	"candidatesScene/SceneCorrect.js"
 ]
 
 function includeScript( p_script )

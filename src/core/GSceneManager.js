@@ -17,6 +17,8 @@ GEngine.GSceneManager.SCENE_SELECT_CANDIDATE 	= "sceneSelectCandidate";
 GEngine.GSceneManager.SCENE_CANDIDATE_INFO 		= "sceneCandidateInfo";
 GEngine.GSceneManager.SCENE_SELECT_PILARS 		= "sceneSelectPilars";
 GEngine.GSceneManager.SCENE_PROPOSALS 			= "sceneProposals";
+GEngine.GSceneManager.SCENE_INCORRECT 			= "sceneIncorrect";
+GEngine.GSceneManager.SCENE_CORRECT 			= "sceneCorrect";
 
 GEngine.GSceneManager.prototype.init = function()
 {
@@ -28,7 +30,8 @@ GEngine.GSceneManager.prototype.init = function()
 	this.m_appBg.scale.y = this.m_appBg.scale.x;
 
 	this.changeScene( GEngine.GSceneManager.SCENE_INTRO );
-	///this.changeScene( GEngine.GSceneManager.SCENE_PROPOSALS );
+	///this.changeScene( GEngine.GSceneManager.SCENE_INCORRECT );
+	///this.changeScene( GEngine.GSceneManager.SCENE_CORRECT );
 };
 
 GEngine.GSceneManager.prototype.changeScene = function( p_sceneId, p_params )
@@ -57,6 +60,14 @@ GEngine.GSceneManager.prototype.changeScene = function( p_sceneId, p_params )
 
 		case GEngine.GSceneManager.SCENE_INTRO:
 			this.m_currentScene = new SceneIntro( this.canvas );
+			break;
+
+		case GEngine.GSceneManager.SCENE_INCORRECT:
+			this.m_currentScene = new SceneIncorrect( this.canvas, p_params );
+			break;
+
+		case GEngine.GSceneManager.SCENE_CORRECT:
+			this.m_currentScene = new SceneCorrect( this.canvas, p_params );
 			break;
 	}
 };

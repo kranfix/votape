@@ -89,6 +89,11 @@ GEngine.GText.prototype.effect = function()
 	return this.m_effect;
 }
 
+GEngine.GText.prototype.id = function()
+{
+	return this.m_id;
+};
+
 GEngine.GText.prototype.free = function()
 {
 	if ( this.m_effect )

@@ -11,12 +11,14 @@ function SceneIntro( p_canvas )
 
 	this.m_state = SceneIntro.ST_RUNNING;
 
+	AppSettings.instance.resetData();
+
 	this.createPanels();
 };
 
 SceneIntro.prototype = Object.create( GEngine.GScene.prototype );
 
-SceneIntro.NUM_INTRO_PANELS = 12;
+SceneIntro.NUM_INTRO_PANELS = 11;
 SceneIntro.ST_RUNNING  = 0;
 SceneIntro.ST_FINISHED = 1;
 

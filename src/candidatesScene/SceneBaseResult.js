@@ -1,6 +1,6 @@
 
 
-function SceneQuestions( p_canvas, p_params )
+function SceneBaseResult( p_canvas, p_params )
 {
 	/** @type {PIXI.Sprite} */
 	this.m_panelBg = null;
@@ -9,18 +9,16 @@ function SceneQuestions( p_canvas, p_params )
 	/** @type {Array.<GEngine.GText>} */
 	this.m_texts = [];
 	/** @type {string} */
-	this.m_pilar = p_params['pilar'] || 'education';
+	this.m_panelId = '';
 
-	GEngine.GScene.call( this, p_canvas );
+	GEngine.GScene.call( this, p_canvas,p_params );
 };
 
-SceneQuestions.prototype = Object.create( GEngine.GScene.prototype );
+SceneBaseResult.prototype = Object.create( GEngine.GScene.prototype );
 
-SceneQuestions.prototype.createScene = function()
+SceneBaseResult.prototype.createScene = function()
 {
-	GEngine.GScene.prototype.createScene.call( this );
-
-	var t_panelData = window['DataPanels']['panels']['panelQuestions'];
+	var t_panelData = window['DataPanels']['panels'][this.m_panelId];
 
 	if ( t_panelData['bg'] )
 	{
@@ -53,11 +51,11 @@ SceneQuestions.prototype.createScene = function()
 			var t_scaleX = t_sprites[q]['sx'];
 			var t_scaleY = t_sprites[q]['sy'];
 			var t_alpha  = t_sprites[q]['alpha'];
-
+			var t_gId 	 = t_sprites[q]['gId'];
 			var t_sprite = null;
 			if ( t_sprites[q]['interactive'] )
 			{
-				t_sprite = new GEngine.GSprite( t_textureId, q );
+				t_sprite = new GEngine.GSprite( t_textureId, t_gId );
 				this.m_controls.push( t_sprite );
 			}
 			else
@@ -66,6 +64,7 @@ SceneQuestions.prototype.createScene = function()
 				this.m_canvas.addChild( t_sprite );
 				this.m_sprites.push( t_sprite );
 			}
+			t_sprite['gId'] = t_sprites[q]['gId'];
 			
 			t_sprite.x = t_xPos;
 			t_sprite.y = t_yPos;
@@ -96,69 +95,39 @@ SceneQuestions.prototype.createScene = function()
 			this.m_texts.push( t_gText );
 		}
 	}
-	
-	var t_candidates = AppSettings.instance.user_selectedCandidates;
 
-	this.m_texts[0].setText( this.m_pilar.toUpperCase() );
+	/// Initialize according to the best and favorite
 
-	for ( var q = 0; q < t_candidates.length; q++ )
-	{
-		var t_candidateProposal = t_candidates[q]['proposals'][this.m_pilar];
-		this.m_texts[q + 1].setText( t_candidateProposal );
-	}
 
 };
 
-SceneQuestions.prototype.onPointerDown = function( p_id )
+SceneBaseResult.prototype.getText = function( p_strId )
 {
-	console.log( 'foo: ' + p_id );
-	if ( AppSettings.instance.user_currentPilar == AppSettings.instance.user_selectedPilars.length - 1 )
+	for ( var q = 0; q < this.m_texts.length; q++ )
 	{
-		AppSettings.instance.user_selectedCandidates[p_id - 1].numMatches++;
-		console.log( 'Check result' );
+		if ( this.m_texts[q].id() === p_strId )
+		{
+			return this.m_texts[q];
+		}
+	}
 
-		var t_favoriteCandidate = AppSettings.instance.user_selectedCandidates[0];
-		var t_bestCandidate 	= AppSettings.instance.user_selectedCandidates[this.getBestCandidateId()];
-	
-		if ( t_favoriteCandidate.id !== t_bestCandidate.id )
-		{
-			GEngine.GSceneManager.instance.changeScene( GEngine.GSceneManager.SCENE_INCORRECT,
-														{ 'favorite': t_favoriteCandidate.id,
-														  'best': t_bestCandidate.id } );
-		}
-		else
-		{
-			GEngine.GSceneManager.instance.changeScene( GEngine.GSceneManager.SCENE_CORRECT,
-														{ 'favorite': t_favoriteCandidate.id } );
-		}
-	}
-	else
-	{
-		/// Add the count to the corresponding candidate
-		AppSettings.instance.user_selectedCandidates[p_id - 1].numMatches++;
-		AppSettings.instance.user_currentPilar++;
-		GEngine.GSceneManager.instance.changeScene( GEngine.GSceneManager.SCENE_PROPOSALS,
-													{ 'pilar': AppSettings.instance.user_selectedPilars[AppSettings.instance.user_currentPilar] } );
-	}
+	return null;
 };
 
-SceneQuestions.prototype.getBestCandidateId = function()
+SceneBaseResult.prototype.getSprite = function( p_gId )
 {
-	var t_candidates = AppSettings.instance.user_selectedCandidates;
-	var t_maxIndx = 0;
-	var t_maxMatches = 0;
-	for ( var q = 0; q < t_candidates.length; q++ )
+	for ( var q = 0; q < this.m_sprites.length; q++ )
 	{
-		if ( t_candidates[q].numMatches > t_maxMatches )
+		if ( this.m_sprites[q]['gId'] === p_gId )
 		{
-			t_maxMatches = t_candidates[q].numMatches;
-			t_maxIndx = q;
+			return this.m_sprites[q];
 		}
 	}
-	return t_maxIndx;
+
+	return null;
 };
 
-SceneQuestions.prototype.free = function()
+SceneBaseResult.prototype.free = function()
 {
 	for ( var q = 0; q < this.m_sprites.length; q++ )
 	{
@@ -180,6 +149,6 @@ SceneQuestions.prototype.free = function()
 		this.m_canvas.removeChild( this.m_panelBg );
 		this.m_panelBg = null;
 	}
-
+	
 	GEngine.GScene.prototype.free.call( this );
 };
