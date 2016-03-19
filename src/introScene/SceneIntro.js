@@ -16,7 +16,7 @@ function SceneIntro( p_canvas )
 
 SceneIntro.prototype = Object.create( GEngine.GScene.prototype );
 
-SceneIntro.NUM_INTRO_PANELS = 3;
+SceneIntro.NUM_INTRO_PANELS = 11;
 SceneIntro.ST_RUNNING  = 0;
 SceneIntro.ST_FINISHED = 1;
 
