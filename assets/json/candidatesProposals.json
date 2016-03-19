@@ -163,10 +163,10 @@
 		{
 			"id": 9,
 			"name": "Hernando GUERRA",
-			"politicalParty": "Alianza Electoral Solidaridad Nacional - UPP",
-			"profession": "Abogado",
+			"org": "Alianza Electoral Solidaridad Nacional - UPP",
+			"prof": "Abogado",
 			"age": "52",
-			"origin": "Lima",
+			"prov": "Lima",
 			"picture": null,
 			"proposals": {
 				"education": "",
@@ -176,16 +176,17 @@
 				"Laboral": "",
 				"Science": ""
 			},
-			"url": ""
+			"url": "",
+			"st": "ACTIVO"
 		},
 
 		{
 			"id": 10,
 			"name": "Alfredo BARNECHEA",
-			"politicalParty": "Acción Popular",
-			"profession": "Escritor",
+			"org": "Acción Popular",
+			"prof": "Escritor",
 			"age": "63",
-			"origin": "Ica",
+			"prov": "Ica",
 			"picture": null,
 			"proposals": {
 				"education": "Continuar con el mejoramiento la educación básica, a través de la actualización curricular e incrementar en un año la educación secundaria.",
@@ -195,16 +196,37 @@
 				"Laboral": "Garantizar un Tasa de crecimiento anual del empleo formal de 6%, con por lo menos 300,000 nuevos empleos anuales creados.",
 				"Science": "Crear la Política de Innovación, Ciencia y Tecnología, se expandirá la inversión del país en CTI desde la educación e integrando la academia, las empresas y las instituciones públicas y de gobierno."
 			},
-			"url": "http://www.votoinformado.pe/voto/plan-de-gobierno-candidato.aspx?p=YAO7BPtEwnZA1JKjYPi5bg=="
+			"url": "http://www.votoinformado.pe/voto/plan-de-gobierno-candidato.aspx?p=YAO7BPtEwnZA1JKjYPi5bg==",
+			"st": "ACTIVO"
+		},
+
+		{
+			"id": 11,
+			"name": "Julio GUZMAN",
+			"org": "Todos por el Perú",
+			"prof": "Economista",
+			"age": "45",
+			"prov": "Lima",
+			"picture": null,
+			"proposals": {
+				"education": "",
+				"health": "",
+				"environment": "",
+				"security": "",
+				"Laboral": "",
+				"Science": ""
+			},
+			"url": "",
+			"st": "TACHADO"
 		},
 
 		{
 		"id": 12,
 		"name": "Keiko FUJIMORI",
-		"politicalParty": "Fuerza Popular",
-		"profession": "Administrador",
+		"org": "Fuerza Popular",
+		"prof": "Administrador",
 		"age": "40",
-		"origin": "Lima",
+		"prov": "Lima",
 		"picture": null,
 		"proposals": {
 			"education": "Garantizar aprendizajes útiles y que contribuyan al desarrollo de las personas, sus talentos y capacidades.",
@@ -214,16 +236,17 @@
 			"Laboral": "Implementar el certificado de buenas prácticas laborales dirigido a fomentar un mejor clima laboral premiando a las empresas con incentivos tributarios.",
 			"Science": "Garantizar que el 90% de las localidades del Perú cuenten con acceso a internet mediante la facilitación en zonas rurales."
 		},
-		"url": "http://www.votoinformado.pe/voto/plan-de-gobierno-candidato.aspx?p=H6D4T5j3KFO2/z2EkcXKsQ=="
+		"url": "http://www.votoinformado.pe/voto/plan-de-gobierno-candidato.aspx?p=H6D4T5j3KFO2/z2EkcXKsQ==",
+		"st": "ACTIVO"
 	},
 
 	{
 		"id": 13,
 		"name": "Fernando OLIVERA",
-		"politicalParty": "Frente Esperanza",
-		"profession": "Administrador",
+		"org": "Frente Esperanza",
+		"prof": "Administrador",
 		"age": "57",
-		"origin": "Lima",
+		"prov": "Lima",
 		"picture": null,
 		"proposals": {
 			"education": "",
@@ -233,16 +256,17 @@
 			"Laboral": "",
 			"Science": ""
 		},
-		"url": ""
+		"url": "",
+		"st": "ACTIVO"
 	},
 
 	{
 		"id": 14,
 		"name": "Miguel HILARIO",
-		"politicalParty": "Progresando Perú",
-		"profession": "Administrador",
+		"org": "Progresando Perú",
+		"prof": "Administrador",
 		"age": "45",
-		"origin": "Ucayali",
+		"prov": "Ucayali",
 		"picture": null,
 		"proposals": {
 			"education": "",
@@ -252,16 +276,17 @@
 			"Laboral": "",
 			"Science": ""
 		},
-		"url": ""
+		"url": "",
+		"st": "ACTIVO"
 	},
 
 	{
 		"id": 15,
 		"name": "Pedro Pablo KUCZYNSKI",
-		"politicalParty": "Peruanos por el Kambio",
-		"profession": "Economista",
+		"org": "Peruanos por el Kambio",
+		"prof": "Economista",
 		"age": "77",
-		"origin": "Lima",
+		"prov": "Lima",
 		"picture": null,
 		"proposals": {
 			"education": "Lograr que al 2021 el Perú se ubique en el puesto 40 del Programa Internacional para la Evaluación de Estudiantes (PISA).",
@@ -271,16 +296,37 @@
 			"Laboral": "Crear tres millones de puestos de trabajo formales en los cinco años de gobierno: la mitad serían nuevos puestos y el resto, producto de la formalización.",
 			"Science": "Se fortalecerá el Fondo Nacional para el Desarrollo de la Ciencia y Tecnología (FONDECYT)."
 		},
-		"url": "http://www.votoinformado.pe/voto/plan-de-gobierno-candidato.aspx?p=LY2dKAohPUYfndrwJjVjeA=="
+		"url": "http://www.votoinformado.pe/voto/plan-de-gobierno-candidato.aspx?p=LY2dKAohPUYfndrwJjVjeA==",
+		"st": "ACTIVO"
+	},
+
+	{
+		"id": 16,
+		"name": "Renzo REGGIARDO BARRETO",
+		"org": "Perú Patria Segura",
+		"prof": "ABOGADO",
+		"age": "43",
+		"prov": "Lima",
+		"picture": null,
+		"proposals": {
+			"education": "",
+			"health": "",
+			"environment": "",
+			"security": "",
+			"Laboral": "",
+			"Science": ""
+		},
+		"url": "",
+		"st": "RENUNCIO"
 	},
 
 	{
 		"id": 17,
 		"name": "Verónica MENDOZA",
-		"politicalParty": "El Frente Amplio por la Justicia, Vida y Libertad",
-		"profession": "Psicóloga",
+		"org": "El Frente Amplio por la Justicia, Vida y Libertad",
+		"prof": "Psicóloga",
 		"age": "35",
-		"origin": "Cusco",
+		"prov": "Cusco",
 		"picture": null,
 		"proposals": {
 			"education": "Garantizar que al 2021 el 90% de instituciones educativas y redes territoriales cuentan con equipos completos de docentes especializados.",
@@ -290,16 +336,17 @@
 			"Laboral": "Garantizar un Tasa de crecimiento anual del empleo formal de 6%, con por lo menos 300,000 nuevos empleos anuales creados.",
 			"Science": "Establecer la creación de un Ministerio de Ciencia, Tecnología e Innovación."
 		},
-		"url": "http://www.votoinformado.pe/voto/plan-de-gobierno-candidato.aspx?p=3iz9wlxoUauNn0QrROG6mg=="
+		"url": "http://www.votoinformado.pe/voto/plan-de-gobierno-candidato.aspx?p=3iz9wlxoUauNn0QrROG6mg==",
+		"st": "ACTIVO"
 	},
 
 	{
 		"id": 18,
 		"name": "Vladimir CERRÓN",
-		"politicalParty": "Perú Libertario",
-		"profession": "Médico",
+		"org": "Perú Libertario",
+		"prof": "Médico",
 		"age": "45",
-		"origin": "Junín",
+		"prov": "Junín",
 		"picture": null,
 		"proposals": {
 			"education": "",
@@ -309,16 +356,17 @@
 			"Laboral": "",
 			"Science": ""
 		},
-		"url": ""
+		"url": "",
+		"st": "ACTIVO"
 	},
 
 	{
 		"id": 19,
 		"name": "Yehude SIMON",
-		"politicalParty": "Partido Humanista Peruano",
-		"profession": "Abogado",
+		"org": "Partido Humanista Peruano",
+		"prof": "Abogado",
 		"age": "68",
-		"origin": "Lima",
+		"prov": "Lima",
 		"picture": null,
 		"proposals": {
 			"education": "",
@@ -328,7 +376,8 @@
 			"Laboral": "",
 			"Science": ""
 		},
-		"url": ""
+		"url": "",
+		"st": "ACTIVO"
 	}
 
 	]
