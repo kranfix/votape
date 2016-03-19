@@ -4,6 +4,8 @@ function SceneSelectPilars( p_canvas )
 {
 	GEngine.GScene.call( this, p_canvas );
 
+	/** @type {PIXI.Sprite} */
+	this.m_spriteBg = null;
 	/** @type {Array.<string>} */
 	this.m_pilarsSelected = [];
 	/** @type {Array.<PIXI.Sprite>} */
@@ -31,6 +33,14 @@ SceneSelectPilars.prototype.createScene = function()
 	var t_pilarsInfo = AppSettings.instance.pilars;
 	var t_columnCounter = 0;
 	var t_rowCounter = 0;
+
+	this.m_spriteBg = PIXI.Sprite.fromFrame( 'res_bg_panel_black.png' );
+	this.m_canvas.addChild( this.m_spriteBg );
+	this.m_spriteBg.x = 50;
+	this.m_spriteBg.y = 50;
+	this.m_spriteBg.scale.x = 900 / this.m_spriteBg.width;
+	this.m_spriteBg.scale.y = 500 / this.m_spriteBg.height;
+	this.m_spriteBg.alpha = 0.75;
 
 	for ( var q = 0; q < t_pilarsInfo.length; q++ )
 	{
@@ -124,6 +134,12 @@ SceneSelectPilars.prototype.free = function()
 	{
 		this.m_canvas.removeChild( this.m_spritesSelected[q] );
 		this.m_spritesSelected[q] = null;
+	}
+
+	if ( this.m_spriteBg )
+	{
+		this.m_canvas.removeChild( this.m_spriteBg );
+		this.m_spriteBg = null;
 	}
 
 	GEngine.GScene.prototype.free.call( this );

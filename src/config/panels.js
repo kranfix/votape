@@ -7,6 +7,7 @@ DataPanels.panels =
 {
 	'panelScene1':
 		{
+			'interactive': true,
 			'lifetime': 1000,
 			'bg' : 'res_bg_panel_black.png',
 			'xPos' : 100,
@@ -457,11 +458,11 @@ DataPanels.panels =
 						{ 'xPos' : 605, 'yPos' : 170, 'texture' : 'res_chair.png', 'sx' : 0.65, 'sy' : 0.55, 'alpha' : 1 },
 						{ 'xPos' : 260, 'yPos' : 190, 'texture' : 'res_body2.png', 'sx' : 0.65, 'sy' : 0.55, 'alpha' : 1 },
 						{ 'xPos' : 580, 'yPos' : 190, 'texture' : 'res_body1.png', 'sx' : 0.65, 'sy' : 0.55, 'alpha' : 1 },
-						{ 'xPos' : 645, 'yPos' : 90, 'texture' : 'res_doll_17.png', 'sx' : 0.3, 'sy' : 0.3, 'alpha' : 1, 'gId': 'favorite' },
-						{ 'xPos' : 300, 'yPos' : 90, 'texture' : 'res_doll_15.png', 'sx' : 0.3, 'sy' : 0.3, 'alpha' : 1, 'gId': 'best' },
+						{ 'xPos' : 645, 'yPos' : 90, 'texture' : 'res_doll_17.png', 'sx' : 0.3, 'sy' : 0.3, 'alpha' : 1, 'gId': 'best' },
+						{ 'xPos' : 300, 'yPos' : 90, 'texture' : 'res_doll_15.png', 'sx' : 0.3, 'sy' : 0.3, 'alpha' : 1, 'gId': 'favorite' },
 						{ 'xPos' : 375, 'yPos' : 135, 'texture' : 'res_informate2.png', 'sx' : 0.3, 'sy' : 0.3, 'alpha' : 1 },
-						{ 'xPos' : 260, 'yPos' : 450, 'texture' : 'res_informate.png', 'sx' : 0.4, 'sy' : 0.4, 'alpha' : 1, 'interactive': true, 'gId' : 'infoBest' },
-						{ 'xPos' : 615, 'yPos' : 450, 'texture' : 'res_informate.png', 'sx' : 0.4, 'sy' : 0.4, 'alpha' : 1, 'interactive': true, 'gId' : 'infoFavorite' },
+						{ 'xPos' : 260, 'yPos' : 450, 'texture' : 'res_informate.png', 'sx' : 0.4, 'sy' : 0.4, 'alpha' : 1, 'interactive': true, 'gId' : 'infoFavorite' },
+						{ 'xPos' : 615, 'yPos' : 450, 'texture' : 'res_informate.png', 'sx' : 0.4, 'sy' : 0.4, 'alpha' : 1, 'interactive': true, 'gId' : 'infoBest' },
 						//{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 },
 						//{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 }
 					]
