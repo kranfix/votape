@@ -80,7 +80,7 @@ DataPanels.panels =
 				[
 					{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 }
 				]
-		}
+		},
 		'panelQuestions':
 			{
 				'bg' : 'res_bg_panel_black.png',

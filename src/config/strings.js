@@ -26,7 +26,7 @@ window['strings'] =
 						  'text' : 'PRESENTA' },
 	'STR_PATRIOTA' : { 'size' : 30, 'font' : 'Arial', 'align' : 'center', 'style' : 'bold',
 						  'fill' : 'white', 'wordWrap' : false, 'wordWrapWidth' : 100,
-						  'text' : 'PATRIOTA' }
+						  'text' : 'PATRIOTA' },
   // ************************************************************************************************************
 	'STR_QUESTION' : { 'size' : 30, 'font' : 'Arial', 'align' : 'center', 'style' : 'bold',
 						  'fill' : 'white', 'wordWrap' : false, 'wordWrapWidth' : 100,
