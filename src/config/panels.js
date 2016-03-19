@@ -3,7 +3,7 @@ function DataPanels(){};
 
 window['DataPanels'] = DataPanels;
 
-DataPanels.panels = 
+DataPanels.panels =
 {
 	'panelScene1':
 		{
@@ -80,5 +80,61 @@ DataPanels.panels =
 				[
 					{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 }
 				]
-		}
+		},
+		'panelQuestions':
+			{
+				'bg' : 'res_bg_panel_black.png',
+				'xPos' : 100,
+				'yPos' : 50,
+				'panelWidth' : 900,
+				'panelHeight' : 500,
+				'texts' :
+					[
+						{
+							'xPos' : 450,
+							'yPos' : 450,
+							'textId' : 'STR_QUESTION',
+							'effect' : null
+						},
+						{
+							'xPos' : 450,
+							'yPos' : 450,
+							'textId' : 'STR_QUESTION',
+							'effect' : null
+						},
+						{
+							'xPos' : 450,
+							'yPos' : 450,
+							'textId' : 'STR_QUESTION',
+							'effect' : null
+						},
+						{
+							'xPos' : 450,
+							'yPos' : 450,
+							'textId' : 'STR_QUESTION',
+							'effect' : null
+						},
+						{
+							'xPos' : 450,
+							'yPos' : 450,
+							'textId' : 'STR_QUESTION',
+							'effect' : null
+						},
+						{
+							'xPos' : 450,
+							'yPos' : 450,
+							'textId' : 'STR_QUESTION',
+							'effect' : null
+						}
+					],
+				'sprites' :
+					[
+						{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 },
+						{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 },
+						{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 },
+						{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 },
+						{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 },
+						{ 'xPos' : 430, 'yPos' : 150, 'texture' : 'res_team_logo.png', 'sx' : 0.75, 'sy' : 0.75, 'alpha' : 1 }
+					]
+			}
 }
