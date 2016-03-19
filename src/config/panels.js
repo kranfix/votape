@@ -7,6 +7,7 @@ DataPanels.panels =
 {
 	'panelScene1':
 		{
+			'lifetime': 1000,
 			'bg' : 'res_bg_panel_black.png',
 			'xPos' : 100,
 			'yPos' : 50,
@@ -34,7 +35,8 @@ DataPanels.panels =
 				]
 		},
 	'panelScene2':
-		{
+		{	
+			'lifetime': 1000,
 			'bg' : 'res_bg_panel_black.png',
 			'xPos' : 100,
 			'yPos' : 50,
@@ -61,7 +63,8 @@ DataPanels.panels =
 				]
 		},
 	'panelScene3':
-		{
+		{	
+			'lifetime': 1000,
 			'bg' : 'res_bg_panel_black.png',
 			'xPos' : 100,
 			'yPos' : 50,
@@ -82,7 +85,8 @@ DataPanels.panels =
 				]
 		},
 	'panelScene4':
-		{
+		{	
+			'lifetime': 2000,
 			'bg' : 'res_bg_panel_black.png',
 			'xPos' : 100,
 			'yPos' : 50,
@@ -115,7 +119,8 @@ DataPanels.panels =
 				]
 		},
 	'panelScene5':
-		{
+		{	
+			'lifetime': 2000,
 			'bg' : 'res_bg_panel_black.png',
 			'xPos' : 100,
 			'yPos' : 50,
@@ -148,7 +153,8 @@ DataPanels.panels =
 				]
 		},
 	'panelScene6':
-		{
+		{	
+			'lifetime': 1000,
 			'bg' : 'res_bg_panel_black.png',
 			'xPos' : 100,
 			'yPos' : 50,
@@ -160,7 +166,8 @@ DataPanels.panels =
 				]
 		},
 	'panelScene7':
-		{
+		{	
+			'lifetime': 2500,
 			'bg' : 'res_bg_panel_black.png',
 			'xPos' : 100,
 			'yPos' : 50,
@@ -211,7 +218,8 @@ DataPanels.panels =
 				]
 		},
 	'panelScene8':
-		{
+		{	
+			'lifetime': 1500,
 			'bg' : 'res_bg_panel_black.png',
 			'xPos' : 100,
 			'yPos' : 50,
@@ -234,7 +242,8 @@ DataPanels.panels =
 				],
 		},
 	'panelScene9':
-		{
+		{	
+			'lifetime': 2000,
 			'bg' : 'res_bg_panel_black.png',
 			'xPos' : 100,
 			'yPos' : 50,
@@ -261,7 +270,8 @@ DataPanels.panels =
 				]
 		},
 	'panelScene10':
-		{
+		{	
+			'lifetime': 2000,
 			'bg' : 'res_bg_panel_black.png',
 			'xPos' : 100,
 			'yPos' : 50,
@@ -294,7 +304,8 @@ DataPanels.panels =
 				]
 		},
 	'panelScene11':
-		{
+		{	
+			'lifetime': 2500,
 			'bg' : 'res_bg_panel_black.png',
 			'xPos' : 100,
 			'yPos' : 50,
@@ -338,8 +349,33 @@ DataPanels.panels =
 					{ 'xPos' : 100, 'yPos' : 310, 'texture' : 'res_phone2.png', 'sx' : 0.6, 'sy' : .6, 'alpha' : 1 },
 				]
 		},
+		'panelScene12':
+		{	
+			'lifetime': 15000,
+			'bg' : 'res_bg_panel_black.png',
+			'xPos' : 100,
+			'yPos' : 50,
+			'panelWidth' : 900,
+			'panelHeight' : 500,
+			'sprites' :
+				[	
+					{ 'xPos' : 180, 'yPos' : 100, 'texture' : 'res_bg_panel_white.png', 'sx' : 6.5, 'sy' : 4, 'alpha' : 1 },
+					{ 'xPos' : 290, 'yPos' : 150, 'texture' : 'res_clasificado.png', 'sx' : 0.6, 'sy' : 0.5, 'alpha' : 1 }
+				],
+			'texts' :
+				[
+					{
+						'xPos' : 220,
+						'yPos' : 210,
+						'textId' : 'STR_PANEL12_STORY',
+						'effect' : { 'id' : 'typewriter', 'dt': 200 }
+					},
+
+				],
+			
+		},
   'panelQuestions':
-			{
+			{	
 				'bg' : 'res_bg_panel_black.png',
 				'xPos' : 100,
 				'yPos' : 50,

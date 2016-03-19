@@ -51,6 +51,8 @@ IntroPanel.prototype.init = function()
 
 	this.m_container.visible = false;
 
+	this.m_lifeTime = this.m_panelData['lifetime'] || 3000;
+
 	if ( this.m_panelData['bg'] )
 	{
 		this.m_panelBg = PIXI.Sprite.fromFrame( this.m_panelData['bg'] );

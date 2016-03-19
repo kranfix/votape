@@ -16,10 +16,10 @@ SceneSelectPilars.prototype = Object.create( GEngine.GScene.prototype );
 
 SceneSelectPilars.NUM_COLS = 3;
 
-SceneSelectPilars.PADDING_X = 100;
+SceneSelectPilars.PADDING_X = 240;
 SceneSelectPilars.PADDING_Y = 100;
 
-SceneSelectPilars.DELTA_X = 200;
+SceneSelectPilars.DELTA_X = 220;
 SceneSelectPilars.DELTA_Y = 200;
 
 SceneSelectPilars.MAX_CHOICES = 3;

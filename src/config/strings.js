@@ -105,6 +105,10 @@ window['strings'] =
 								'fill' : 'white', 'wordWrap' : false, 'wordWrapWidth' : 100,
 								'text' : 'hacer la mejor elección."'},
   // ************************************************************************************************************
+	'STR_PANEL12_STORY' : { 'size' : 17, 'font' : 'Arial', 'align' : 'left', 'style': 'normal',
+								'fill' : '0x000000', 'wordWrap' : true, 'wordWrapWidth' : 580,
+								'text' : 'Son 14 los candidatos, quienes fueron sus contendores en las elecciones pasadas, tendrá que seleccionar a solo 5, el primero que elija deberá ser su favorito.\n\nEligirá cual es la mejor propuesta para cada uno de los 6 pilares, previamente deverá indicar tres de ellos, los cuales aseguran el desarrollo de la nación. Las propuestas seleccionadas en cada pilar deberían de ser las de su favorito. Sabemos que Ud. se encuentra informado y conoce muy bien lo que él o ella propone. \n\n Al final se conocerá quien asumirá su cargo, si el personaje que sale luego de su elección es su favorito Ud. podrá retornar a ocupar su cargo, en caso contrario Ud. no podrá volver a tomar su cargo, a postular o a ser elegible para una próxima presidencia, lo mismo  ocurrirá con su candidato favorito.'},
+  // ************************************************************************************************************
 	'STR_QUESTION_TITTLE' : { 'size' : 25, 'font' : 'Arial', 'align' : 'left', 'style' : 'bold',
 						  	  'fill' : 'white', 'wordWrap' : false, 'wordWrapWidth' : 100,
 						  	  'text' : 'PREGUNTA' },
