@@ -105,7 +105,10 @@ window['strings'] =
 								'fill' : 'white', 'wordWrap' : false, 'wordWrapWidth' : 100,
 								'text' : 'hacer la mejor elección."'},
   // ************************************************************************************************************
-	'STR_QUESTION' : { 'size' : 30, 'font' : 'Arial', 'align' : 'center', 'style' : 'bold',
-						  'fill' : 'white', 'wordWrap' : false, 'wordWrapWidth' : 100,
-						  'text' : 'PREGUNTA' }
+	'STR_QUESTION_TITTLE' : { 'size' : 25, 'font' : 'Arial', 'align' : 'left', 'style' : 'bold',
+						  	  'fill' : 'white', 'wordWrap' : false, 'wordWrapWidth' : 100,
+						  	  'text' : 'PREGUNTA' },
+	'STR_QUESTION_GENERIC' : { 'size' : 15, 'font' : 'Arial', 'align' : 'left', 'style' : 'normal',
+						  	   'fill' : 'white', 'wordWrap' : false, 'wordWrapWidth' : 100,
+						  	   'text' : 'Propuesta ...' }
 }
