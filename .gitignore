@@ -1,6 +1,5 @@
 # Audio - soundtrack
 *.mp3
-*.ogg
 
 # Librerias con binarios
 /assets/imgs/*.db
