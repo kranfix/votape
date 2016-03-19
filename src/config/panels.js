@@ -387,11 +387,11 @@ DataPanels.panels =
 				'sprites' :
 					[
 						{ 'xPos' : 250, 'yPos' : 100, 'texture' : 'res_bg_panel_white.png', 'sx' : 5, 'sy' : 0.5, 'alpha' : 0.25, 'interactive' : false },
-						{ 'xPos' : 150, 'yPos' : 200, 'texture' : 'res_bg_panel_white.png', 'sx' : 5, 'sy' : 0.5, 'alpha' : 0.25, 'interactive' : true },
-						{ 'xPos' : 150, 'yPos' : 275, 'texture' : 'res_bg_panel_white.png', 'sx' : 5, 'sy' : 0.5, 'alpha' : 0.25, 'interactive' : true },
-						{ 'xPos' : 150, 'yPos' : 350, 'texture' : 'res_bg_panel_white.png', 'sx' : 5, 'sy' : 0.5, 'alpha' : 0.25, 'interactive' : true },
-						{ 'xPos' : 150, 'yPos' : 425, 'texture' : 'res_bg_panel_white.png', 'sx' : 5, 'sy' : 0.5, 'alpha' : 0.25, 'interactive' : true },
-						{ 'xPos' : 150, 'yPos' : 500, 'texture' : 'res_bg_panel_white.png', 'sx' : 5, 'sy' : 0.5, 'alpha' : 0.25, 'interactive' : true }
+						{ 'xPos' : 150, 'yPos' : 200, 'texture' : 'res_bg_panel_white.png', 'sx' : 6.5, 'sy' : 0.4, 'alpha' : 0.25, 'interactive' : true },
+						{ 'xPos' : 150, 'yPos' : 275, 'texture' : 'res_bg_panel_white.png', 'sx' : 6.5, 'sy' : 0.4, 'alpha' : 0.25, 'interactive' : true },
+						{ 'xPos' : 150, 'yPos' : 350, 'texture' : 'res_bg_panel_white.png', 'sx' : 6.5, 'sy' : 0.4, 'alpha' : 0.25, 'interactive' : true },
+						{ 'xPos' : 150, 'yPos' : 425, 'texture' : 'res_bg_panel_white.png', 'sx' : 6.5, 'sy' : 0.4, 'alpha' : 0.25, 'interactive' : true },
+						{ 'xPos' : 150, 'yPos' : 500, 'texture' : 'res_bg_panel_white.png', 'sx' : 6.5, 'sy' : 0.4, 'alpha' : 0.25, 'interactive' : true }
 					]
 			},
 	'panelIncorrect':
