@@ -9,16 +9,7 @@ function getList() {
         $('#res2').html('');
         $('#res3').html('');*/
       },
-      success: function(jsondata) {
-        testX(jsondata);
-        /*var str = '';
-        str += '<ul>';
-        $.each(jsondata, function(idx, obj) {
-          str += '<li>' + obj.id + ' - ' + obj.coincidences + ' - ' + obj.fails + '</li>';
-        });
-        str += '</ul>';
-        $('#res1').html(str);*/
-      }
+      success: testX
     });
 }
 
